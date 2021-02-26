@@ -22,6 +22,7 @@
                                                 height="128">
                 </div>
             </a>
+            <p class="mobile-adaptive">+7 988 620-15-69</p>
             <ul class="main-navigation">
                 <li><a href="#">Новинки</a></li>
                 <li><a href="#">Скидочная карта</a></li>
@@ -29,9 +30,9 @@
                 <li><a href="#">О нас</a></li>
             </ul>
             <ul class="user-navigation">
-                <li><a class="nav-button-contacts" href="#">Контакты</a></li>
+                <li><a class="nav-button-contacts" href="#"><span>Контакты</span></a></li>
                 <li>
-                    <button class="nav-button-input">Войти</button>
+                    <button class="nav-button-input"><span>Войти</span></button>
                 </li>
             </ul>
         </div>
@@ -43,7 +44,8 @@
         <div class="container-center">
                 <h1>Ваша пивная<br>заправка!</h1>
                 <p>Чем больше я читаю, тем больше думаю,<br> что нет ничего лучше кружки пива.</p>
-                <a class="button-main-banner" href="#">Вперед</a>
+                <p class="mobile-adaptive-banner">Чем больше я читаю, тем больше думаю, что нет ничего лучше кружки пива.</p>
+                <a class="button-main-banner" href="#">Вперёд !</a>
         </div>
     </section>
     <section class="features">
@@ -52,7 +54,8 @@
             <ul class="features-list">
                 <li class="features-item features-item-1" >
                     <div class="features-item-text-container">
-                        <h3>Хорошие цены</h3>
+                        <h3 class="mobile-adaptive-hidden">Хорошие цены</h3>
+                        <h3 class="mobile-adaptive-visible">Лучшие цены</h3>
                         <p>Мы доступны для каждого</p>
                     </div>
                 </li>
@@ -79,12 +82,16 @@
     </section>
     <section class="news-hits-block">
         <div class="container-center">
-            <h2>Новинки и хиты продаж</h2>
+            <h2>Новинки и хиты <span class="mobile-adaptive-hidden-320">продаж</span></h2>
             <div class="wrapper">
                 <div class="slider-block">
                     <div class="block-image-and-controls">
                         <img src="images/1280/hits-mojito-1280.png" alt="Новинки и хиты продаж" width="627"
                              height="503">
+                        <div class="slider-controls-mobile-adaptive">
+                            <label class="mobile-adaptive-control-1" for="btn-1"></label>
+                            <label class="mobile-adaptive-control-2" for="btn-2"></label>
+                        </div>
                     </div>
                     <div class="block-description">
                         <h3>Пивной напиток Мохито.</h3>
@@ -96,7 +103,7 @@
                         </p>
                         <p><b>Концентрация алкоголя не превышает 5,2 %.</b> Этот напиток поможет создать комфортную
                             обстановку на
-                            вечеринке или каком-либо торжестве</p>
+                            вечеринке или каком-либо торжестве.</p>
                     </div>
                 </div>
                 <input  type="radio" name="slider-radio" id="btn-1" checked>
@@ -113,6 +120,7 @@
                     <label for="btn-5"></label>
                     <label for="btn-6"></label>
                 </div>
+
             </div>
         </div>
     </section>
@@ -154,9 +162,14 @@
                     <div class="contacts-address-img-adaptive">
                         <img src="images/1280/logo-contacts-1280.png" width="169" height="192"
                             alt="Логотип Пивная заправка"></div>
-                    <p class="address-tittle">Анапа, ст. Анапская, ул. Мира 77</p>
-                    <p>Работаем без <span>выходных</span></p>
-                    <p>Время работы: с 11:00 до 22:00</p>
+                    <div class="mobile-adaptive-contacts">
+                        <p class="address-tittle">Анапа, ст. Анапская, ул. Мира 77</p>
+                        <p>Работаем без <span>выходных</span></p>
+                        <p>Время работы: с 11:00 до 22:00</p></div>
+                    <div class="mobile-adaptive-phone-320">
+                        <p>Мы рады вашем звонку</p>
+                        <p>7 988 620-15-69</p>
+                    </div>
                 </div>
             </div>
         </div>
