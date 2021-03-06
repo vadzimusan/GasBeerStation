@@ -16,6 +16,15 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url('fonts/arial_narrow.eot'); /* IE 9 Compatibility Mode */
+    src: url('fonts/arial_narrow.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('fonts/arial_narrow.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/arial_narrow.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('fonts/arial_narrow.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/arial_narrow.svg#arial_narrow') format('svg'); /* Chrome < 4, Legacy iOS */
+}
 
 
 /* 1280 - main*/
@@ -72,6 +81,12 @@ h2 {
 
 }
 .mobile-adaptive-banner {
+    display: none;
+}
+.mobile-adaptive-nav-popup {
+    display: none;
+}
+.navigation-popup {
     display: none;
 }
 
@@ -571,9 +586,19 @@ input[type="radio"].visually-hidden {
     align-items: center;
 
 }
+@keyframes bounce {
+    0% {transform: translateY(-2000px);}
+    70% {transform: translateY(30px);}
+    90% {transform: translateY(-10px);}
+    100% {transform: translateY(0);}
+}
+
+
 .modal-form-show{
-     display: flex;
- }
+    display: flex;
+    animation-name: bounce;
+    animation-duration: 0.6s;
+}
 
 .block-form-background{
     color: #000000;
@@ -748,6 +773,12 @@ form .button {
     margin-top: 50px;
 
 }
+form .button:focus {
+    outline: none;
+    border: none;
+    background-image: url("images/1280/background-button-input-focus.png");
+    background-repeat: no-repeat;
+}
 
 
 
@@ -797,6 +828,9 @@ form .button {
         height: 110px;
     }
     .navigation-popup {
+        display: none;
+    }
+    .mobile-adaptive-nav-popup {
         display: none;
     }
     .mobile-adaptive-phone-320 {
@@ -1321,8 +1355,18 @@ form .button {
         align-items: center;
 
     }
+    @keyframes bounce {
+        0% {transform: translateY(-2000px);}
+        70% {transform: translateY(30px);}
+        90% {transform: translateY(-10px);}
+        100% {transform: translateY(0);}
+    }
+
+
     .modal-form-show{
         display: flex;
+        animation-name: bounce;
+        animation-duration: 0.6s;
     }
 
     .block-form-background{
@@ -1500,6 +1544,12 @@ form .button {
         margin-top: 30px;
 
     }
+    form .button:focus {
+        outline: none;
+        border: none;
+        background-image: url("images/1000/background-button-input-focus.png");
+        background-repeat: no-repeat;
+    }
 
 
 
@@ -1562,6 +1612,9 @@ form .button {
     }
     .navigation-popup {
       display: none;
+    }
+    .mobile-adaptive-nav-popup {
+        display: none;
     }
 
     .main-navigation a,
@@ -2100,8 +2153,18 @@ form .button {
         align-items: center;
 
     }
+    @keyframes bounce {
+        0% {transform: translateY(-2000px);}
+        70% {transform: translateY(30px);}
+        90% {transform: translateY(-10px);}
+        100% {transform: translateY(0);}
+    }
+
+
     .modal-form-show{
         display: flex;
+        animation-name: bounce;
+        animation-duration: 0.6s;
     }
 
     .block-form-background{
@@ -2280,6 +2343,12 @@ form .button {
         margin-top: 30px;
 
     }
+    form .button:focus {
+        outline: none;
+        border: none;
+        background-image: url("images/768/background-button-input-focus.png");
+        background-repeat: no-repeat;
+    }
 
 
 
@@ -2332,6 +2401,12 @@ form .button {
         width: 88px;
         height: 95px;
     }
+    .nav-button-contacts {
+        display: none;
+    }
+    .mobile-adaptive-nav-popup {
+        display: block;
+    }
     .mobile-adaptive {
         display: block;
         margin-left: 140px;
@@ -2356,6 +2431,15 @@ form .button {
     .main-navigation {
         display: none;
     }
+    nav .container-center {
+        position: relative;
+    }
+    .navigation-popup-wrapper {
+        display: flex;
+        position: absolute;
+        margin-right: 6px;
+        margin-top: 75px;
+    }
     .user-navigation button {
         width: 39px;
         height: 40px;
@@ -2370,6 +2454,7 @@ form .button {
         color: #ffffff;
 
         margin-left: 15px;
+        font-size: 0;
 
     }
     .user-navigation {
@@ -2387,6 +2472,7 @@ form .button {
         background-image: url("images/480/nav-button.png");
         background-position: left top;
         background-repeat: no-repeat;
+        font-size: 0;
 
     }
     .user-navigation .nav-button-input span,
@@ -2397,11 +2483,11 @@ form .button {
 
 
     .user-navigation a:active {
-        background-image: url("images/768/button-contacts-nav-active.png");
+        background-image: none;
         color: #ffffff;
     }
     .user-navigation button:active {
-        background-image: url("images/768/menu-nav-button-active.png");
+        background-image: none;
         color: #000000;
     }
 
@@ -2474,7 +2560,7 @@ form .button {
         background-repeat: no-repeat;
     }
     .main-banner a:active {
-        background-image: url("images/768/button-main-active.png");
+        background-image: none;
     }
 
 
@@ -2915,11 +3001,32 @@ form .button {
         text-align: center;
         margin: 20px 5px;
     }
+
+
+    .navigation-popup-wrapper {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 6px;
+        margin-top: 75px;
+    }
     .navigation-popup {
-        display: block;
+        display: none;
         position: relative;
         width: 175px;
         background-color: #1BDBC4;
+    }
+    @keyframes bounce {
+        0% {transform: translateY(-2000px);}
+        70% {transform: translateY(30px);}
+        90% {transform: translateY(-10px);}
+        100% {transform: translateY(0);}
+    }
+    .navigation-popup-show {
+        display: block;
+        animation-name: bounce;
+        animation-duration: 0.4s;
     }
     .main-navigation-popup {
         list-style: none;
@@ -3002,8 +3109,18 @@ form .button {
         align-items: center;
 
     }
+    @keyframes bounce {
+        0% {transform: translateY(-2000px);}
+        70% {transform: translateY(30px);}
+        90% {transform: translateY(-10px);}
+        100% {transform: translateY(0);}
+    }
+
+
     .modal-form-show{
         display: flex;
+        animation-name: bounce;
+        animation-duration: 0.6s;
     }
 
     .block-form-background{
@@ -3181,6 +3298,12 @@ form .button {
         margin-top: 30px;
 
     }
+    form .button:focus {
+        outline: none;
+        border: none;
+        background-image: url("images/480/background-button-input-focus.png");
+        background-repeat: no-repeat;
+    }
 
 
 
@@ -3211,9 +3334,11 @@ form .button {
     h2 {
         font-family: PF Beau Sans Pro Semibold, sans-serif;
         font-size: 25px;
-        margin-top: 0;
-        margin-bottom: 25px;
+        margin: 0 0 25px;
         text-align: center;
+    }
+    .features h2 {
+        text-align: left;
     }
 
     .mobile-adaptive-visible {
@@ -3232,6 +3357,15 @@ form .button {
     }
     nav .logo-adaptive {
        display: none;
+    }
+    nav .container-center {
+        position: relative;
+    }
+    .nav-button-contacts {
+        display: none;
+    }
+    .mobile-adaptive-nav-popup {
+        display: block;
     }
     .mobile-adaptive {
         display: block;
@@ -3298,11 +3432,11 @@ form .button {
 
 
     .user-navigation a:active {
-        background-image: url("images/768/button-contacts-nav-active.png");
+        background-image: none;
         color: #ffffff;
     }
     .user-navigation button:active {
-        background-image: url("images/768/menu-nav-button-active.png");
+        background-image: none;
         color: #000000;
     }
 
@@ -3375,7 +3509,7 @@ form .button {
         background-repeat: no-repeat;
     }
     .main-banner a:active {
-        background-image: url("images/768/button-main-active.png");
+        background-image: none;
     }
 
 
@@ -3857,10 +3991,21 @@ form .button {
     /*----------------nav-pop-up -------------------  */
 
     .navigation-popup {
-        display: block;
+        display: none;
         position: relative;
         width: 175px;
         background-color: #1BDBC4;
+    }
+    @keyframes bounce {
+        0% {transform: translateY(-2000px);}
+        70% {transform: translateY(30px);}
+        90% {transform: translateY(-10px);}
+        100% {transform: translateY(0);}
+    }
+    .navigation-popup-show {
+        display: block;
+        animation-name: bounce;
+        animation-duration: 0.4s;
     }
     .main-navigation-popup {
         list-style: none;
@@ -3945,8 +4090,18 @@ form .button {
         align-items: center;
 
     }
+    @keyframes bounce {
+        0% {transform: translateY(-2000px);}
+        70% {transform: translateY(30px);}
+        90% {transform: translateY(-10px);}
+        100% {transform: translateY(0);}
+    }
+
+
     .modal-form-show{
         display: flex;
+        animation-name: bounce;
+        animation-duration: 0.6s;
     }
     .block-form-background{
         color: #000000;
@@ -4113,9 +4268,23 @@ form .button {
         font-weight: bold;
         margin-top: 10px;
 
-
+    }
+    form .button:focus {
+        outline: none;
+        border: none;
+        background-image: url("images/320/background-button-input-focus.png");
+        background-repeat: no-repeat;
     }
 
+    @keyframes shake {
+        0%, 100% {transform: translateX(0);}
+        10%, 30% , 50%, 70%, 90% {transform: translateX(-10px);}
+        20%, 40%, 60%, 80% {transform: translateX(0);}
+    }
+    .modal-error {
+        animation-name: shake;
+        animation-duration: 0.6s;
+    }
 
 
 }
