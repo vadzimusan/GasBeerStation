@@ -48,7 +48,7 @@ ul {
     padding: 0;
 }
 nav {
-    background-color: #1BDBC4;
+    background-color: #F7EAAA;
 }
 h2 {
     font-family: PF Beau Sans Pro Semibold, sans-serif;
@@ -121,7 +121,7 @@ h2 {
     border: none;
 
     background-color: transparent;
-    background-image: url("images/1280/button-purple-nav-1280.png");
+    background-image: url("images/1280/button-nav-1280.png");
     background-position: left top;
     background-repeat: no-repeat;
 
@@ -129,6 +129,7 @@ h2 {
     color: #ffffff;
 
     margin-left: 15px;
+
 }
 .user-navigation button:focus {
     outline: none;
@@ -182,10 +183,10 @@ h2 {
     height: 790px;
 
     background-color: #FA6648;
-    background-image: url("images/1280/banner-bottle-image-1280.png"), url("images/1280/backgroundMainVector-1280.png");
-    background-position: 65% center, top;
-    background-repeat: no-repeat, no-repeat;
-    background-size:  auto, cover;
+    background-image: url("images/1280/backgroundMainVector-1280.png");
+    background-position:  top;
+    background-repeat:  no-repeat;
+    background-size:  cover;
 
     /* для оступа загаловка сверху*/
     border-top: 1px solid transparent;
@@ -200,8 +201,8 @@ h2 {
     color: #ffffff;
     text-transform: uppercase;
 
-    padding: 0;
-    margin-top: 134px;
+    padding: 95px 0 0;
+
     margin-bottom: 25px;
 
 }
@@ -216,11 +217,13 @@ h2 {
     margin: 0 0 70px;
 }
 .main-banner .container-center{
-    background-image: url("images/1280/banner-icon18-1280.png");
-    background-position: calc(100% - 30px) bottom;
-    background-repeat: no-repeat;
+    background-image:  url("images/1280/banner-cup-image-1280.png");
+    background-position:  calc(100% + 20px) center;
+    background-repeat:  no-repeat;
 
-    min-height: 620px;
+    min-height: 720px;
+    margin-top: -15px;
+
 }
 .main-banner a {
     display: block;
@@ -461,7 +464,7 @@ input[type="radio"] {
 
 /*Подвал*/
 footer {
-    background-color: #1BDBC4;
+    background-color: #FDC55E;
 }
 footer .wrapper {
     justify-content: space-between;
@@ -908,10 +911,10 @@ form .button:focus {
         height: 588px;
 
         background-color: #FA6648;
-        background-image: url("images/1000/main-bottle-image.png"), url("images/1280/backgroundMainVector-1280.png");
-        background-position: 65% center, top;
-        background-repeat: no-repeat, no-repeat;
-        background-size:  auto, cover;
+        background-image:  url("images/1280/backgroundMainVector-1280.png");
+        background-position: top;
+        background-repeat:  no-repeat;
+        background-size:  cover;
 
         /* для оступа загаловка сверху*/
         border-top: 1px solid transparent;
@@ -926,8 +929,7 @@ form .button:focus {
         color: #ffffff;
         text-transform: uppercase;
 
-        padding: 0;
-        margin-top: 134px;
+       padding: 95px 0 0;
         margin-bottom: 25px;
 
     }
@@ -941,12 +943,16 @@ form .button:focus {
         letter-spacing: 1px;
         margin: 0 0 70px;
     }
+
     .main-banner .container-center{
-        background-image: url("images/1000/icon-18years-main.png");
-        background-position: calc(100% - 30px) bottom;
+        background-image:  url("images/1000/main-cup-image.png");
+        background-position:  calc(100% + 20px) center;
         background-repeat: no-repeat;
 
-        min-height: 430px;
+        margin-top: -15px;
+
+        min-height: 560px;
+
     }
     .main-banner a {
         display: block;
@@ -1234,7 +1240,7 @@ form .button:focus {
 
     /*Подвал*/
     footer {
-        background-color: #1BDBC4;
+        background-color: #FDC55E;
     }
     footer .wrapper {
         justify-content: space-between;
@@ -1686,9 +1692,9 @@ form .button:focus {
         height: 450px;
 
         background-color: #FA6648;
-        background-image: url("images/768/main-bottle-image.png"), url("images/1280/backgroundMainVector-1280.png");
-        background-position: 65% center, top;
-        background-repeat: no-repeat, no-repeat;
+        background-image:  url("images/1280/backgroundMainVector-1280.png");
+        background-position:  top;
+        background-repeat:  no-repeat;
         background-size:  auto, cover;
 
         /* для оступа загаловка сверху*/
@@ -1704,8 +1710,7 @@ form .button:focus {
         color: #ffffff;
         text-transform: uppercase;
 
-        padding: 0;
-        margin-top: 75px;
+        padding: 75px 0 0;
         margin-bottom: 10px;
 
     }
@@ -1720,12 +1725,13 @@ form .button:focus {
         margin: 0 0 35px;
     }
     .main-banner .container-center{
-        background-image: url("images/768/icon-18years-main.png");
-        background-position: calc(100% - 30px) bottom;
+        background-image: url("images/768/main-cup-image.png");
+        background-position: calc(100% - 10px) center;
         background-repeat: no-repeat;
 
-        min-height: 350px;
+        min-height: 420px;
     }
+
     .main-banner a {
         display: block;
 
@@ -2024,7 +2030,7 @@ form .button:focus {
 
     /*Подвал*/
     footer {
-        background-color: #1BDBC4;
+        background-color: #FDC55E;
     }
     footer .wrapper {
         justify-content: space-between;
@@ -2410,7 +2416,7 @@ form .button:focus {
     .mobile-adaptive {
         display: block;
         margin-left: 140px;
-        padding-top: 20px;
+        padding-top: 17px;
         font-family: Montserrat,sans-serif;
         font-size: 12px;
         font-weight: bold;
@@ -2421,7 +2427,7 @@ form .button:focus {
 
         position: absolute;
         left: -35px;
-        top: 15px;
+        top: 12px;
         background-image: url("images/480/phone-nav.png");
         width: 25px;
         height: 25px;
@@ -2459,7 +2465,7 @@ form .button:focus {
     }
     .user-navigation {
         margin-top: 0;
-        padding: 15px 0;
+        padding: 12px 0;
     }
     .user-navigation a {
         display: block;
@@ -2498,10 +2504,10 @@ form .button:focus {
         height: 358px;
 
         background-color: #FA6648;
-        background-image: url("images/480/main-bottle-image.png"), url("images/1280/backgroundMainVector-1280.png");
-        background-position: 65% center, top;
-        background-repeat: no-repeat, no-repeat;
-        background-size:  auto, cover;
+        background-image:url("images/1280/backgroundMainVector-1280.png");
+        background-position: top;
+        background-repeat:  no-repeat;
+        background-size:   cover;
 
         /* для оступа загаловка сверху*/
         border-top: 1px solid transparent;
@@ -2516,8 +2522,8 @@ form .button:focus {
         color: #ffffff;
         text-transform: uppercase;
 
-        padding: 0;
-        margin-top: 75px;
+        padding: 40px 0 0;
+
         margin-bottom: 10px;
 
     }
@@ -2535,15 +2541,15 @@ form .button:focus {
         line-height: 20px;
         font-weight: 600;
         letter-spacing: 1px;
-        margin: 0 0 35px;
-        width: 260px;
+        margin: 0 0 20px;
+        width: 210px;
     }
     .main-banner .container-center{
-        background-image: url("images/480/icon-18years-main.png");
-        background-position: calc(100% - 30px) bottom;
-        background-repeat: no-repeat;
+        background-image: url("images/480/main-cup-image.png");
+        background-position:  calc(100% + 5px) 100% ;
+        background-repeat:  no-repeat;
 
-        min-height: 260px;
+        min-height: 340px;
     }
     .main-banner a {
         display: block;
@@ -2877,7 +2883,7 @@ form .button:focus {
 
     /*Подвал*/
     footer {
-        background-color: #1BDBC4;
+        background-color: #FDC55E;
     }
     footer .wrapper {
         justify-content: space-between;
@@ -3009,13 +3015,13 @@ form .button:focus {
         top: 0;
         right: 0;
         margin-right: 6px;
-        margin-top: 75px;
+        margin-top: 69px;
     }
     .navigation-popup {
         display: none;
         position: relative;
         width: 175px;
-        background-color: #1BDBC4;
+        background-color: #F7EAAA;
     }
     @keyframes bounce {
         0% {transform: translateY(-2000px);}
@@ -3050,14 +3056,19 @@ form .button:focus {
         margin: 0;
         padding: 30px;
     }
-    .nav-popup-list .instagram-popup svg{
-        width: 25px;
-        height: 25px;
+    .nav-popup-list .nav-popup-inst{
+        width: 40px;
+        height: 40px;
+        display: block;
+        background-image: url("images/480/instagram-nav.png");
+
     }
-    .nav-popup-list .telegram-popup svg{
-        width: 25px;
-        height: 25px;
-        margin-left: 20px;
+    .nav-popup-list .nav-popup-tel{
+        width: 40px;
+        height: 40px;
+        display: block;
+        background-image: url("images/480/telegram-nav.png");
+        margin-left: 10px;
     }
     .popup-close {
         position: absolute;
@@ -3352,6 +3363,7 @@ form .button:focus {
 
 
     /*Навигация */
+
     nav .nav-logo {
         display: none;
     }
@@ -3370,7 +3382,7 @@ form .button:focus {
     .mobile-adaptive {
         display: block;
         margin-left: 37px;
-        padding-top: 20px;
+        padding-top: 17px;
         font-family: Montserrat,sans-serif;
         font-size: 12px;
         font-weight: bold;
@@ -3381,7 +3393,7 @@ form .button:focus {
 
         position: absolute;
         left: -35px;
-        top: 15px;
+        top: 12px;
         background-image: url("images/320/phone-nav.png");
         width: 25px;
         height: 25px;
@@ -3404,12 +3416,12 @@ form .button:focus {
 
         color: #ffffff;
 
-        margin-left: 15px;
+        margin-left: 10px;
 
     }
     .user-navigation {
         margin-top: 0;
-        padding: 15px 0;
+        padding: 12px 0;
     }
     .user-navigation a {
         display: block;
@@ -3444,7 +3456,7 @@ form .button:focus {
 
     /*    Main-banner */
     .main-banner {
-        height: 413px;
+        height: 424px;
 
         background-color: #FA6648;
         background-image:  url("images/1280/backgroundMainVector-1280.png");
@@ -3465,8 +3477,8 @@ form .button:focus {
         color: #ffffff;
         text-transform: uppercase;
 
-        padding: 0;
-        margin-top: 40px;
+        padding: 15px 0 0 ;
+
         margin-bottom: 10px;
 
     }
@@ -3485,17 +3497,17 @@ form .button:focus {
         font-weight: 600;
         letter-spacing: 1px;
         margin: 0 0 20px;
-        width: 217px;
+        width: 280px;
     }
     .main-banner .container-center{
-        background-image: url("images/320/main-bottle-image.png"), url("images/320/icon-18years-main.png");
-        background-position: 85% 60%,calc(100% - 30px) bottom;
-        background-repeat: no-repeat no-repeat;
+        background-image: url("images/320/main-cup-image.png");
+        background-position: 100% 95%;
+        background-repeat: no-repeat;
 
-        min-height: 340px;
+        min-height: 410px;
     }
     .main-banner a {
-        display: block;
+        display: none;
 
         text-align: center;
         line-height: 28px;
@@ -3857,7 +3869,7 @@ form .button:focus {
 
     /*Подвал*/
     footer {
-        background-color: #1BDBC4;
+        background-color: #FDC55E;
     }
     footer .wrapper {
         justify-content: space-between;
@@ -3994,7 +4006,7 @@ form .button:focus {
         display: none;
         position: relative;
         width: 175px;
-        background-color: #1BDBC4;
+        background-color: #F7EAAA;
     }
     @keyframes bounce {
         0% {transform: translateY(-2000px);}
@@ -4029,14 +4041,19 @@ form .button:focus {
         margin: 0;
         padding: 30px;
     }
-    .nav-popup-list .instagram-popup svg{
-        width: 25px;
-        height: 25px;
+    .nav-popup-list .nav-popup-inst{
+        width: 40px;
+        height: 40px;
+        display: block;
+        background-image: url("images/320/instagram-nav.png");
+
     }
-    .nav-popup-list .telegram-popup svg{
-        width: 25px;
-        height: 25px;
-        margin-left: 20px;
+    .nav-popup-list .nav-popup-tel{
+        width: 40px;
+        height: 40px;
+        display: block;
+        background-image: url("images/320/telegram-nav.png");
+        margin-left: 10px;
     }
     .popup-close {
         position: absolute;
