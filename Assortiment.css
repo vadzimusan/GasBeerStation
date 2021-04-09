@@ -1,0 +1,6928 @@
+html,
+body {
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+
+    min-width: 100%;
+
+}
+.container-center {
+    /*outline: 1px solid red;*/
+}
+nav {
+    margin-bottom: 80px;
+}
+/*.main-navigation-link-current a{*/
+/*    color: #ffffff;*/
+/*}*/
+
+
+/*.breadcrumbs {*/
+/*    display: flex;*/
+/*    margin-right: 0;*/
+/*    flex-wrap: wrap;*/
+/*    margin-bottom: 10px;*/
+/*    margin-left: 20px;*/
+/*}*/
+/*.breadcrumbs a {*/
+/*    position: relative;*/
+/*    color: #000000;*/
+/*    margin-right: 40px;*/
+/*    font-family: "RF Krabuler", sans-serif;*/
+/*    text-transform: uppercase;*/
+/*    text-decoration: none;*/
+/*}*/
+/*.breadcrumbs a::after {*/
+/*    content: "";*/
+
+/*    position: absolute;*/
+/*    right: -25px;*/
+/*    top: 50%;*/
+/*    margin-top: -4px;*/
+/*    width: 7px;*/
+/*    height: 7px;*/
+
+/*    background-color: #000000;*/
+/*    transform: rotate(45deg);*/
+/*}*/
+/*.breadcrumbs-current {*/
+/*    color: #aba9a7;*/
+/*    font-family: "RF Krabuler",sans-serif;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+
+
+h2 {
+    font-family: "RF Krabuler", sans-serif;
+    font-size: 45px;
+    font-weight: normal;
+    text-transform: uppercase;
+    width: 600px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+.mobile-adaptive-assortiment {
+    display: none;
+}
+.container-center-kick {
+    display: block;
+}
+.beer-banner {
+    width: 1218px;
+    height: 529px;
+    background-image: url("images/1280/Assortiment/mainAssortiment.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0,0,0,1);
+    margin-bottom: 70px;
+    border-radius: 5px;
+}
+.beer-banner h2 {
+    font-size: 70px;
+    margin-left: 75px;
+    padding-top: 95px;
+}
+h3 {
+    font-family: "RF Krabuler", sans-serif;
+    font-size: 50px;
+    text-transform: none;
+}
+.beerList{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.beerList-inner {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 9px;
+}
+.beerList-inner:first-child {
+    margin-top: 190px;
+}
+.beerList-inner-text:first-child {
+    color: #FF8E8E;
+    font-family: "RF Krabuler", sans-serif;
+    text-transform: none;
+    font-size: 22px;
+    padding-left: 35px;
+}
+.beerList-inner-text {
+    font-family: "Peace Sans", sans-serif;
+    color: #000000;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+.beerList-inner-text span {
+    font-size: 17px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    text-transform: none;
+    padding-left: 10px;
+}
+.beerList-item-1 {
+    background-image: url("images/1280/Assortiment/card90.png");
+    width: 280px;
+    height: 465px;
+    background-repeat: no-repeat;
+
+}
+.beerList-item-2 {
+    background-image: url("images/1280/Assortiment/card100.png");
+    width: 280px;
+    height: 465px;
+    background-repeat: no-repeat;
+}
+.beerList-item-3 {
+    background-image: url("images/1280/Assortiment/card110.png");
+    width: 280px;
+    height: 465px;
+    background-repeat: no-repeat;
+}
+.beerList-item-4 {
+    background-image: url("images/1280/Assortiment/card120.png");
+    width: 280px;
+    height: 465px;
+    background-repeat: no-repeat;
+}
+.beer-price {
+    margin-bottom: 90px;
+}
+.bottleBeer {
+    height: 336px;
+    background-color: #ffffff;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin-bottom: 20px;
+}
+.bottleBeer-imageVector {
+   background-image: url("images/1280/Assortiment/beerVector.png");
+    width: 502px;
+    height: 336px;
+}
+.bottleBeer-text {
+    padding-top: 30px;
+}
+.bottleBeer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.bottleBeer ul>li p {
+    font-size: 45px;
+    font-family: "RF Krabuler", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    /*text-transform: uppercase;*/
+    margin-left: 90px;
+
+}
+.warning-price {
+    font-family: "RF Krabuler", sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.barrelBeer {
+    margin-bottom: 90px;
+}
+.listBeerCard {
+    display: flex;
+    width: 1218px;
+    flex-flow: row wrap;
+}
+.listBeerCard-item {
+    width: 282px;
+    margin-right: 30px;
+    /*outline: 1px solid red;*/
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+}
+.listBeerCard-item  .image-product {
+   text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.listBeerCard-item:nth-child(4n) {
+    margin-right:0;
+}
+.barrelBeer .warning-price {
+    margin-top: -15px;
+}
+.ListBeerCard-description {
+    font-family: "RF Krabuler", sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+.ListBeerCard-description span {
+    text-transform: none;
+    margin-left: 50px;
+}
+.listBeerCard-item{
+    display: flex;
+    flex-flow: column wrap;
+    /*outline: 1px solid black;*/
+
+}
+.container-price{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 235px;
+    /*outline: 1px solid black;*/
+    margin: auto;
+}
+
+.listBeerCard-item b {
+    font-weight: normal;
+}
+.product-description {
+    font-family: "RF Krabuler", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.product-description .made-product {
+    text-transform: none;
+}
+.item-price b {
+    font-family: "RF Krabuler", sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: #CECECE;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 68px;
+    margin-bottom: 20px;
+}
+.item-price .price-product {
+    text-transform: none;
+    width: 96px;
+    height: 68px;
+    background-color: #FFF176;
+    flex-grow: 0;
+    text-align: center;
+
+}
+.listBeerCard-item span {
+    text-transform: none;
+}
+
+
+
+
+
+.snack-banner {
+    width: 1218px;
+    height: 475px;
+    background-image: url("images/1280/Assortiment/snacksBlock.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0,0,0,1);
+    margin-bottom: 70px;
+    border-radius: 5px;
+}
+.snack-banner h2 {
+    font-size: 70px;
+    margin-left: 125px;
+    padding-top: 105px;
+    color: #FFF0A3;
+    text-shadow: none;
+    width: 273px;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+.snack-block-Card {
+    display: flex;
+    width: 1218px;
+    flex-flow: row wrap;
+}
+.snack-block-card-item {
+    width: 282px;
+    margin-right: 30px;
+    /*outline: 1px solid red;*/
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+}
+.snack-block-card-item  .image-product {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.snack-block-card-item:nth-child(4n) {
+    margin-right:0;
+}
+.snack-block-card-item b {
+    font-weight: normal;
+}
+.container-price{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 235px;
+    /*outline: 1px solid black;*/
+    margin: auto;
+
+}
+
+.product-description {
+    font-family: "RF Krabuler", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.product-description .made-product {
+    text-transform: none;
+}
+
+.item-price b {
+    font-family: "RF Krabuler", sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: #CECECE;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 68px;
+    margin-bottom: 20px;
+
+}
+.item-price .price-product {
+    text-transform: none;
+    width: 96px;
+    height: 68px;
+    background-color: #FFF176;
+    flex-grow: 0;
+    text-align: center;
+
+}
+.snack-block-card-item span {
+    text-transform: none;
+}
+.snack-block {
+    margin-bottom: 90px;
+}
+
+
+.cheepsBlock{
+    height: 336px;
+    background-color: #FCF9BB;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+.cheepsBlock-imageVector {
+    background-image: url("images/1280/Assortiment/cheeps.png");
+    width: 502px;
+    height: 336px;
+}
+.cheepsBlock-text {
+    /*padding-top: 30px;*/
+}
+.cheepsBlock ul {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    list-style: none;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.cheepsBlock ul>li p {
+    font-size: 35px;
+    font-family: "RF Krabuler", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin: 0 0 30px 90px;
+}
+.cheepsBlock ul>li:last-child p {
+    margin-bottom: 0;
+}
+
+
+
+
+
+.cracksBlock{
+    height: 336px;
+    background-color: #FCF9BB;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+.cracksBlock-imageVector {
+    background-image: url("images/1280/Assortiment/cracks.png");
+    width: 502px;
+    height: 336px;
+    margin-left: auto;
+}
+.cracksBlock ul {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    list-style: none;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.cracksBlock ul li {
+
+}
+.cracksBlock ul>li p {
+    font-size: 35px;
+    font-family: "RF Krabuler", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin: 0 0 30px 90px;
+
+}
+.cracksBlock ul>li:last-child p {
+    margin-bottom: 0;
+}
+.cracksBlock-text span {
+    text-transform: none;
+}
+.warning-price-margin {
+    text-align: right;
+    margin-bottom: 90px;
+}
+
+
+
+
+
+/*Карточки море продуктов и банер*/
+.moreproduct-banner {
+    width: 1218px;
+    height: 477px;
+    background-image: url("images/1280/Assortiment/moreproductBlock.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+
+    margin-bottom: 70px;
+    border-radius: 5px;
+}
+.moreproduct-banner h2 {
+    font-size: 70px;
+    margin-left: 740px;
+    padding-top: 155px;
+    color: #ffffff;
+    text-shadow: 0 0 25px rgba(0,0,0,0.7);
+    width: 500px;
+    font-weight: normal;
+}
+
+
+.moreproduct-block-Card {
+    display: flex;
+    width: 1218px;
+    flex-flow: row wrap;
+}
+.moreproduct-block-card-item {
+    width: 282px;
+    margin-right: 30px;
+    /*outline: 1px solid red;*/
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+}
+.moreproduct-block-card-item  .image-product {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.moreproduct-block-card-item:nth-child(4n) {
+    margin-right:0;
+}
+.moreproduct-block-card-item b {
+    font-weight: normal;
+}
+.container-price{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 235px;
+    /*outline: 1px solid black;*/
+    margin: auto;
+}
+
+.product-description {
+    font-family: "RF Krabuler", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.product-description .made-product {
+    text-transform: none;
+}
+.item-price b {
+    font-family: "RF Krabuler", sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: #CECECE;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 68px;
+    margin-bottom: 20px;
+
+}
+.item-price .price-product {
+    text-transform: none;
+    width: 96px;
+    height: 68px;
+    background-color: #FFF176;
+    flex-grow: 0;
+    text-align: center;
+
+}
+.moreproduct-block-card-item span {
+    text-transform: none;
+}
+.moreproduct-block{
+    margin-bottom: 90px;
+}
+
+
+.banya-banner {
+    width: 1218px;
+    height: 480px;
+    background-image: url("images/1280/Assortiment/banyaBlock.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0,0,0,1);
+    margin-bottom: 90px;
+    border-radius: 5px;
+}
+.banya-banner h2 {
+    font-size: 70px;
+    margin-left: 740px;
+    padding-top: 125px;
+    color: #ffffff;
+    text-shadow: 0 0 25px rgba(0,0,0, 0.2);
+    width: 500px;
+    font-weight: normal;
+
+}
+
+.picnic-banner {
+    width: 1218px;
+    height: 479px;
+    background-image: url("images/1280/Assortiment/picknikBlock.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0,0,0,1);
+    margin-bottom: 90px;
+    border-radius: 5px;
+}
+.picnic-banner h2 {
+    font-size: 70px;
+    margin-left: 60px;
+    padding-top: 75px;
+    color: #FFF0A3;
+    text-shadow: none;
+    width: 400px;
+    font-weight: normal;
+}
+.contacts h2 {
+    font-family: PF Beau Sans Pro Semibold, sans-serif;
+    text-transform: none;
+}
+
+
+/*------------------------------------------------------------------------*/
+
+
+
+
+/*1000-MAIN*/
+
+@media (max-width: 1265px) {
+
+    html,
+    body {
+        padding:0;
+        margin:0;
+        /*overflow-x: hidden;*/
+        /*min-width: 1000px;*/
+
+        font-family: Montserrat, sans-serif;
+    }
+
+
+    .container-center{
+        width: 948px;
+        margin:0 auto;
+        padding: 0 21px;
+    }
+    h2 {
+        font-family: PF Beau Sans Pro Semibold, sans-serif;
+        font-size: 44px;
+        margin-top: 0;
+        margin-bottom: 45px;
+    }
+
+    /*Навигация */
+    nav .nav-logo {
+        display: none;
+    }
+    nav .logo-adaptive {
+        position: absolute;
+        top: 10px;
+        background-image: url("images/1000/logo-nav.png");
+        width: 103px;
+        height: 110px;
+    }
+    .navigation-popup {
+        display: none;
+    }
+    .mobile-adaptive-nav-popup {
+        display: none;
+    }
+    .mobile-adaptive-phone-320 {
+        display: none;
+    }
+    .mobile-adaptive-banner {
+        display: none;
+    }
+
+    .mobile-adaptive {
+        display: none;
+    }
+    .main-navigation a,
+    .user-navigation a,
+    .user-navigation button,
+    .main-banner a{
+        font-family: Montserrat, sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #1C1C1D;
+    }
+    .main-navigation a{
+        padding: 33px 10px;
+    }
+    .main-navigation a:active {
+        color: #ffffff;
+    }
+    .main-navigation {
+        margin-left: 118px;
+    }
+    .user-navigation button {
+        width: 125px;
+        height: 40px;
+
+        border: none;
+
+        background-color: transparent;
+        background-image: url("images/1000/button-nav-login.png");
+        background-position: left top;
+        background-repeat: no-repeat;
+
+        color: #ffffff;
+
+        margin-left: 20px;
+        margin-top:  4px;
+
+    }
+    .user-navigation a {
+        display: block;
+
+        text-align: center;
+        line-height: 39px;
+
+        width: 125px;
+        height: 40px;
+
+        background-image: url("images/1000/button-nav-contacts.png");
+        background-position: left top;
+        background-repeat: no-repeat;
+        margin-top: 5px;
+    }
+    .user-navigation a:active {
+        background-image: url("images/1000/button-nav-activ.png");
+        color: #ffffff;
+    }
+    .user-navigation button:active {
+        background-image: url("images/1000/button-nav-login-activ.png");
+        color: #000000;
+    }
+
+
+
+
+
+
+    nav {
+        margin-bottom: 80px;
+    }
+    h2 {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 45px;
+        font-weight: normal;
+        text-transform: uppercase;
+        width: 600px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+    /*.image-product-1280{*/
+    /*    display: none;*/
+    /*}*/
+    /*.image-product-1000{*/
+    /*    display: block;*/
+    /*}*/
+
+    .mobile-adaptive-assortiment {
+        display: none;
+    }
+    .container-center-kick {
+        display: block;
+    }
+
+    .beer-banner {
+        width: 948px;
+        height: 419px;
+        background-image: url("images/1000/Assortiment/mainAssortiment.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 70px;
+        border-radius: 5px;
+    }
+    .beer-banner h2 {
+        font-size: 60px;
+        margin-left: 75px;
+        padding-top: 95px;
+    }
+    h3 {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 50px;
+        text-transform: none;
+    }
+    .beerList{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .beerList-inner {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        line-height: 9px;
+    }
+    .beerList-inner:first-child:not(.beerList-item-3 .beerList-inner) {
+        margin-top: 90px;
+    }
+    .beerList-item-3 .beerList-inner{
+        margin-top: 25px;
+    }
+    .beerList-inner-text:first-child {
+        color: #FF8E8E;
+        font-family: "RF Krabuler", sans-serif;
+        text-transform: none;
+        font-size: 22px;
+        padding-left: 55px;
+    }
+    .beerList-inner-text {
+        font-family: "Peace Sans", sans-serif;
+        color: #000000;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding-left: 35px;
+    }
+    .beerList-inner-text span {
+        font-size: 17px;
+        font-family: Roboto, sans-serif;
+        font-style: italic;
+        text-transform: none;
+        padding-left: 10px;
+    }
+    .beerList-item-1 {
+        background-image: url("images/1000/Assortiment/card90.png");
+        width: 457px;
+        height: 300px;
+        background-repeat: no-repeat;
+        margin-bottom: 30px;
+
+    }
+    .beerList-item-2 {
+        background-image: url("images/1000/Assortiment/card100.png");
+        width: 457px;
+        height: 300px;
+        background-repeat: no-repeat;
+        margin-bottom: 30px;
+    }
+    .beerList-item-3 {
+        background-image: url("images/1000/Assortiment/card110.png");
+        width: 457px;
+        height: 300px;
+        background-repeat: no-repeat;
+    }
+    .beerList-item-4 {
+        background-image: url("images/1000/Assortiment/card120.png");
+        width: 457px;
+        height: 300px;
+        background-repeat: no-repeat;
+    }
+    .beer-price {
+        margin-bottom: 90px;
+    }
+    .bottleBeer {
+        height: 263px;
+        background-color: #ffffff;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .bottleBeer-imageVector {
+        background-image: url("images/1000/Assortiment/beerVector.png");
+        width: 393px;
+        height: 263px;
+    }
+    .bottleBeer-text {
+        padding-top: 10px;
+    }
+    .bottleBeer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .bottleBeer ul>li p {
+        font-size: 35px;
+        font-family: "RF Krabuler", sans-serif;
+        font-weight: 400;
+        line-height: 30px;
+        /*text-transform: uppercase;*/
+        margin-left: 90px;
+
+    }
+    .warning-price {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 17px;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    .barrelBeer {
+        margin-bottom: 90px;
+    }
+    .listBeerCard {
+        display: flex;
+        width: 948px;
+        flex-flow: row wrap;
+    }
+    .listBeerCard-item {
+        width: 300px;
+        margin-right: 24px;
+        /*outline: 1px solid red;*/
+        margin-bottom: 30px;
+        box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    }
+    .listBeerCard-item  .image-product {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .listBeerCard-item:nth-child(4n) {
+        margin-right:24px;
+    }.listBeerCard-item:nth-child(3n) {
+        margin-right:0;
+    }
+    .barrelBeer .warning-price {
+        margin-top: -15px;
+    }
+    .ListBeerCard-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 19px;
+        text-transform: uppercase;
+        font-weight: 400;
+
+    }
+
+    .ListBeerCard-description span {
+        text-transform: none;
+        margin-left: 50px;
+    }
+    .listBeerCard-item{
+        display: flex;
+        flex-flow: column wrap;
+        /*outline: 1px solid black;*/
+
+    }
+    .container-price{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 235px;
+        /*outline: 1px solid black;*/
+        margin: auto;
+    }
+
+    .listBeerCard-item b {
+        font-weight: normal;
+    }
+    .product-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+    .product-description .made-product {
+        text-transform: none;
+    }
+    .item-price b {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 19px;
+        text-transform: uppercase;
+        font-weight: 400;
+        background-color: #CECECE;
+        flex-grow: 1;
+        text-align: center;
+        line-height: 68px;
+        margin-bottom: 20px;
+    }
+    .item-price .price-product {
+        text-transform: none;
+        width: 96px;
+        height: 68px;
+        background-color: #FFF176;
+        flex-grow: 0;
+        text-align: center;
+
+    }
+    .listBeerCard-item span {
+        text-transform: none;
+    }
+
+
+
+
+
+    .snack-banner {
+        width: 948px;
+        height: 375px;
+        background-image: url("images/1000/Assortiment/snacksBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 70px;
+        border-radius: 5px;
+    }
+    .snack-banner h2 {
+        font-size: 60px;
+        margin-left: 90px;
+        padding-top: 80px;
+        color: #FFF0A3;
+        text-shadow: none;
+        width: 273px;
+        font-weight: normal;
+    }
+
+
+
+
+
+
+
+    .snack-block-Card {
+        display: flex;
+        width: 948px;
+        flex-flow: row wrap;
+    }
+    .snack-block-card-item {
+        width: 300px;
+        margin-right: 24px;
+        /*outline: 1px solid red;*/
+        margin-bottom: 30px;
+        box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    }
+    .snack-block-card-item  .image-product {
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .image-product img:not(.barrelBeer .image-product img) {
+        min-width: 100%;
+    }
+    .snack-block-card-item:nth-child(4n) {
+        margin-right: 24px;
+    }
+    .snack-block-card-item:nth-child(3n) {
+        margin-right: 0;
+    }
+    .snack-block-card-item b {
+        font-weight: normal;
+    }
+    .container-price{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 235px;
+        /*outline: 1px solid black;*/
+        margin: auto;
+
+    }
+
+    .product-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 35px;
+    }
+    .product-description .made-product {
+        text-transform: none;
+    }
+
+    .item-price b {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 19px;
+        text-transform: uppercase;
+        font-weight: 400;
+        background-color: #CECECE;
+        flex-grow: 1;
+        text-align: center;
+        line-height: 68px;
+        margin-bottom: 20px;
+
+    }
+    .item-price .price-product {
+        text-transform: none;
+        width: 96px;
+        height: 68px;
+        background-color: #FFF176;
+        flex-grow: 0;
+        text-align: center;
+
+    }
+    .snack-block-card-item span {
+        text-transform: none;
+    }
+    .snack-block {
+        margin-bottom: 90px;
+    }
+
+
+    .cheepsBlock{
+        height: 263px;
+        background-color: #FCF9BB;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        display: flex;
+    }
+    .cheepsBlock-imageVector {
+        background-image: url("images/1000/Assortiment/cheeps.png");
+        width: 391px;
+        height: 263px;
+    }
+    .cheepsBlock-text {
+        /*padding-top: 30px;*/
+    }
+    .cheepsBlock ul {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        list-style: none;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .cheepsBlock ul>li p {
+        font-size: 30px;
+        font-family: "RF Krabuler", sans-serif;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin: 0 0 20px 90px;
+    }
+    .cheepsBlock ul>li:last-child p {
+        margin-bottom: 0;
+    }
+
+
+
+
+
+    .cracksBlock{
+        height: 263px;
+        background-color: #FCF9BB;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        display: flex;
+    }
+    .cracksBlock-imageVector {
+        background-image: url("images/1000/Assortiment/cracks.png");
+        width: 391px;
+        height: 263px;
+        margin-left: auto;
+    }
+    .cracksBlock ul {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        list-style: none;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .cracksBlock ul li {
+
+    }
+    .cracksBlock ul>li p {
+        font-size: 30px;
+        font-family: "RF Krabuler", sans-serif;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin: 0 0 20px 90px;
+
+    }
+    .cracksBlock ul>li:last-child p {
+        margin-bottom: 0;
+    }
+    .cracksBlock-text span {
+        text-transform: none;
+    }
+    .warning-price-margin {
+        text-align: right;
+        margin-bottom: 90px;
+    }
+
+
+
+
+
+    /*Карточки море продуктов и банер*/
+    .moreproduct-banner {
+        width: 948px;
+        height: 374px;
+        background-image: url("images/1000/Assortiment/moreproductBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+
+        margin-bottom: 70px;
+        border-radius: 5px;
+    }
+    .moreproduct-banner h2 {
+        font-size: 55px;
+        margin-left: 570px;
+        padding-top: 135px;
+        color: #ffffff;
+        text-shadow: 0 0 25px rgba(0,0,0,0.7);
+        width: 500px;
+        font-weight: normal;
+    }
+
+
+    .moreproduct-block-Card {
+        display: flex;
+        width: 948px;
+        flex-flow: row wrap;
+    }
+    .moreproduct-block-card-item {
+        width: 300px;
+        margin-right: 24px;
+        /*outline: 1px solid red;*/
+        margin-bottom: 30px;
+        box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    }
+    .moreproduct-block-card-item  .image-product {
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .moreproduct-block-card-item:nth-child(4n) {
+        margin-right: 24px;
+    }
+    .moreproduct-block-card-item:nth-child(3n) {
+        margin-right: 0;
+    }
+    .moreproduct-block-card-item b {
+        font-weight: normal;
+    }
+    .container-price{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 235px;
+        /*outline: 1px solid black;*/
+        margin: auto;
+    }
+
+    .product-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    .product-description .made-product {
+        text-transform: none;
+    }
+    .item-price b {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 19px;
+        text-transform: uppercase;
+        font-weight: 400;
+        background-color: #CECECE;
+        flex-grow: 1;
+        text-align: center;
+        line-height: 68px;
+        margin-bottom: 20px;
+
+    }
+    .item-price .price-product {
+        text-transform: none;
+        width: 96px;
+        height: 68px;
+        background-color: #FFF176;
+        flex-grow: 0;
+        text-align: center;
+
+    }
+    .moreproduct-block-card-item span {
+        text-transform: none;
+    }
+    .moreproduct-block{
+        margin-bottom: 90px;
+    }
+
+
+    .banya-banner {
+        width: 948px;
+        height: 374px;
+        background-image: url("images/1000/Assortiment/banyaBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 90px;
+        border-radius: 5px;
+    }
+    .banya-banner h2 {
+        font-size: 55px;
+        margin-left: 580px;
+        padding-top: 100px;
+        color: #ffffff;
+        text-shadow: 0 0 25px rgba(0,0,0, 0.2);
+        width: 400px;
+        font-weight: normal;
+
+    }
+
+    .picnic-banner {
+        width: 948px;
+        height: 375px;
+        background-image: url("images/1000/Assortiment/picknikBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 90px;
+        border-radius: 5px;
+    }
+    .picnic-banner h2 {
+        font-size: 55px;
+        margin-left: 45px;
+        padding-top: 75px;
+        color: #FFF0A3;
+        text-shadow: none;
+        width: 350px;
+        font-weight: normal;
+    }
+    .contacts h2 {
+        font-family: PF Beau Sans Pro Semibold, sans-serif;
+        text-transform: none;
+    }
+
+
+    /*Контакты*/
+    .contacts {
+        margin-bottom: 100px;
+    }
+    .contacts .contacts-map {
+
+        /*box-shadow: 0 0 20px 5px rgba(28, 28, 29, 0.2);*/
+        width: 618px;
+        height: 371px;
+        background-image: url("images/1000/block-map.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        margin-left: -17px;
+    }
+    .contacts .contacts-map a {
+        display: block;
+        margin-left: 40px;
+        margin-top: 295px;
+
+        font: inherit;
+        font-size: 17px;
+        font-weight: bold;
+        color: #000000;
+    }
+    .contacts-address img {
+        display: none;
+    }
+    .contacts-address-img-adaptive {
+        background-image: url("images/1000/logo-contacts.png");
+        width: 123px;
+        height: 142px;
+
+        margin-left: 100px;
+
+
+    }
+    .contacts .contacts-address {
+        margin-left: auto;
+        width: 320px;
+    }
+    .contacts .contacts-address .address-tittle{
+        font-size: 26px;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 55px;
+    }
+    .contacts-address p {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .contacts-address span {
+        color: #FA6648;
+    }
+
+    /*Подвал*/
+    footer {
+        background-color: #FDC55E;
+    }
+    footer .wrapper {
+        justify-content: space-between;
+
+    }
+    .footer-nav {
+        display: flex;
+    }
+    .footer-nav li a {
+        display: block;
+        padding: 30px 15px;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .footer-nav li:first-child a {
+        padding-left: 0;
+    }
+    .footer-nav li a:active {
+        color: #1C1C1D;
+    }
+    .footer-social{
+        display: flex;
+        flex-flow: column wrap;
+        padding-top: 40px;
+    }
+    .footer-social b {
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 27px;
+    }
+    .footer-social-icon-instagram-adaptive svg {
+        width: 30px;
+        height: 30px;
+    }
+    .footer-social-icon-telegram-adaptive svg {
+        width: 31px;
+        height: 31px;
+    }
+
+    .footer-social-icon-instagram-adaptive a:active  svg {
+        fill: #F9F9AA;
+    }
+    .footer-social-icon {
+        display: flex;
+        margin-bottom: 40px;
+        justify-content: space-around;
+    }
+    .footer-phone {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .footer-phone b{
+        margin-top: 11px;
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .footer-phone p {
+        position: relative;
+        margin-left: 50px;
+        font-family: Montserrat, sans-serif;
+        color: #1C1C1D;
+        font-size: 16px;
+        font-weight: 800;
+        text-align: right;
+    }
+    .footer-phone p::before {
+        content: "";
+
+        position: absolute;
+        background-image: url("images/1000/phone.png");
+
+        width: 31px;
+        height: 31px;
+        right: 160px;
+        top: -9px;
+
+    }
+
+    .warning-block img {
+        display: none;
+    }
+    .warning-block-img-adaptive {
+        background-image: url("images/1000/icon-18years-warning-block.png");
+        width: 87px;
+        height: 87px;
+    }
+
+    .warning-block p {
+        font-family: "Arial Narrow", sans-serif;
+        font-size: 30px;
+        color: #ffffff;
+        width: 600px;
+        text-align: center;
+        margin: 20px 20px;
+    }
+    /*------form- pop-up--------------------*/
+    .modal-form {
+
+        width: 100%;
+        height: 100%;
+        background:rgba(146, 107, 99, 0.9);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        /*Нужно включить дисплей флекс*/
+        justify-content: center;
+        align-items: center;
+
+    }
+    @keyframes bounce {
+        0% {transform: translateY(-2000px);}
+        70% {transform: translateY(30px);}
+        90% {transform: translateY(-10px);}
+        100% {transform: translateY(0);}
+    }
+
+
+    .modal-form-show{
+        display: flex;
+        animation-name: bounce;
+        animation-duration: 0.6s;
+    }
+
+    .block-form-background{
+        color: #000000;
+        display: flex;
+        flex-wrap: wrap;
+
+        align-content: center;
+
+
+        background-color: transparent;
+        background-image: url("images/1000/background-form-input.png");
+        background-repeat: no-repeat;
+        width: 401px;
+        height: 406px;
+        padding: 0 0 0 35px;
+
+        position: relative;
+
+    }
+    .block-description-form {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        margin-top: 0;
+        width: 363px;
+    }
+
+    .block-description-form a {
+        display: block;
+        background-image: url("images/1000/bacgkround-button-registration.png");
+        width: 173px;
+        height: 49px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        color: #ffffff;
+        line-height: 45px;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .block-description-form p {
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 26px;
+        color: #000000;
+    }
+    .modal-form input[type="text"],
+    .modal-form input[type="password"]{
+        box-sizing: border-box;
+        width: 363px;
+        height: 58px;
+        border: none;
+        background-image: url("images/1000/background-input-text.png");
+        margin-bottom: 10px;
+        padding-left: 20px;
+    }
+    .modal-form input:focus {
+        background-image: url("images/1000/background-text-focus.png");
+        width: 362px;
+        height: 57px;
+        outline: none;
+    }
+    .modal-form input::placeholder {
+        font-family: Montserrat, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        color: #8E8E8E;
+        text-transform: uppercase;
+
+    }
+    .modal-form input[type="password"]{
+        margin-bottom: 30px;
+    }
+    .modal-form p {
+        margin: 0;
+    }
+    .login-password-info {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+        text-transform: uppercase;
+        font-family: Montserrat, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .login-password-info a {
+        font-family: Tahoma, sans-serif;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+
+    }
+    .login-checkbox {
+        position: relative;
+        padding-left:40px;
+        cursor: pointer;
+        width: 180px;
+        font-family: Tahoma, sans-serif;
+        display: inline-block;
+        height: auto;
+        border: 0;
+        border-radius:0;
+
+        margin-left: 0;
+
+    }
+    .login-checkbox input[type="checkbox"] + .checkbox-indicator {
+        position: absolute;
+        top:-8px;
+        left: 0;
+
+        background-image: url("images/1000/checkbox.png");
+        width: 27px;
+        height: 30px;
+    }
+    .login-checkbox input[type="checkbox"]:focus + .checkbox-indicator {
+
+        outline: 1px solid yellow;
+    }
+    .login-checkbox input[type="checkbox"]:checked + .checkbox-indicator {
+        background-image: url("images/1000/active-checkbox.png");
+    }
+
+    .modal-close {
+        position: absolute;
+        top: -40px;
+        right: 0;
+
+        width: 27px;
+        height: 27px;
+
+        font-size: 0;
+
+        background-color: transparent;
+        border: 0;
+
+        cursor: pointer;
+    }
+    .modal-close::before,
+    .modal-close::after {
+        content: "";
+
+        position: absolute;
+        top: 10px;
+        left: 2px;
+
+        width: 24px;
+        height: 5px;
+
+        background-color: #d0d0d0;
+    }
+    .modal-close::before {
+        transform: rotate(45deg);
+    }
+    .modal-close::after {
+        transform: rotate(-45deg);
+    }
+
+    form .button {
+        box-sizing: border-box;
+        border: none;
+        background-image: url("images/1000/background-button-input.png");
+        background-color: transparent;
+        width: 363px;
+        height: 49px;
+        color: #ffffff;
+        font-size: 16px;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 30px;
+
+    }
+    form .button:focus {
+        outline: none;
+        border: none;
+        background-image: url("images/1000/background-button-input-focus.png");
+        background-repeat: no-repeat;
+    }
+
+
+
+
+}
+
+
+
+
+/*-------------------------------------------------------------------*/
+
+@media (max-width: 990px) {
+
+    html,
+    body {
+        padding:0;
+        margin:0;
+        /*overflow-x: hidden;*/
+
+        /*min-width: 768px;*/
+
+        font-family: Montserrat, sans-serif;
+    }
+
+    .mobile-adaptive-phone-320 {
+        display: none;
+    }
+    .container-center{
+        width: 728px;
+        margin:0 auto;
+        padding: 0 20px;
+    }
+    h2 {
+        font-family: PF Beau Sans Pro Semibold, sans-serif;
+        font-size: 36px;
+        margin-top: 0;
+        margin-bottom: 35px;
+    }
+
+    .mobile-adaptive-visible{
+        display: none;
+    }
+
+    .mobile-adaptive-banner {
+        display: none;
+    }
+
+    .mobile-adaptive {
+        display: none;
+    }
+    /*Навигация */
+    nav .nav-logo {
+        display: none;
+    }
+    nav .logo-adaptive {
+        position: absolute;
+        top: 10px;
+        background-image: url("images/768/logo-navpng.png");
+        width: 84px;
+        height: 90px;
+    }
+    .navigation-popup {
+        display: none;
+    }
+    .mobile-adaptive-nav-popup {
+        display: none;
+    }
+
+    .main-navigation a,
+    .user-navigation a,
+    .user-navigation button,
+    .main-banner a{
+        font-family: Montserrat, sans-serif;
+        font-weight: 800;
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #1C1C1D;
+    }
+    .main-navigation a{
+        padding: 33px 10px;
+    }
+    .main-navigation a:active {
+        color: #ffffff;
+    }
+    .main-navigation {
+        margin-left: 95px;
+    }
+    .user-navigation button {
+        width: 40px;
+        height: 39px;
+
+        border: none;
+
+        background-color: transparent;
+        background-image: url("images/768/menu-nav-button.png");
+        background-position: left top;
+        background-repeat: no-repeat;
+
+        color: #ffffff;
+
+        margin-left: 20px;
+        margin-top:  4px;
+
+    }
+    .user-navigation .nav-button-input span  {
+        position: absolute;
+        color: transparent;
+    }
+    .user-navigation a {
+        display: block;
+
+        text-align: center;
+        line-height: 37px;
+
+        width: 115px;
+        height: 37px;
+
+        background-image: url("images/768/button-contacts-nav.png");
+        background-position: left top;
+        background-repeat: no-repeat;
+        margin-top: 5px;
+    }
+    .user-navigation a:active {
+        background-image: url("images/768/button-contacts-nav-active.png");
+        color: #ffffff;
+    }
+    .user-navigation button:active {
+        background-image: url("images/768/menu-nav-button-active.png");
+        color: #000000;
+    }
+
+
+
+
+
+
+
+    nav {
+        margin-bottom: 60px;
+    }
+    h2 {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 35px;
+        font-weight: normal;
+        text-transform: uppercase;
+        width: 400px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+    }
+    /*.image-product-1280{*/
+    /*    display: none;*/
+    /*}*/
+    /*.image-product-1000{*/
+    /*    display: block;*/
+    /*}*/
+
+    .mobile-adaptive-assortiment {
+        display: none;
+    }
+    .container-center-kick {
+        display: block;
+    }
+
+    .beer-banner {
+        width: 728px;
+        height: 342px;
+        background-image: url("images/768/Assortiment/mainAssortiment.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+    .beer-banner h2 {
+        font-size: 50px;
+        margin-left: 55px;
+        padding-top: 75px;
+    }
+    h3 {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 37px;
+        text-transform: none;
+        margin-bottom: 25px;
+        color: #595959;
+        margin-left: 30px;
+    }
+    .beerList{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .beerList-inner {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        line-height: 9px;
+    }
+
+    .beerList-inner:first-child:not(.beerList-item-3 .beerList-inner) {
+        margin-top: 90px;
+    }
+
+    .beerList .beerList-item-2 .beerList-inner:first-child{
+        margin-top: 60px;
+    }
+    .beerList .beerList-item-3 .beerList-inner:first-child{
+        margin-top: 25px;
+    }
+    .beerList .beerList-item-3 .beerList-inner-text p{
+        line-height: 7px;
+    }
+
+    .beerList-inner-text:first-child {
+        color: #FF8E8E;
+        font-family: "RF Krabuler", sans-serif;
+        text-transform: none;
+        font-size: 22px;
+        padding-left: 25px;
+    }
+    .beerList-inner-text {
+        font-family: "Peace Sans", sans-serif;
+        color: #000000;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding-left: 15px;
+    }
+    .beerList-inner-text span {
+        font-size: 17px;
+        font-family: Roboto, sans-serif;
+        font-style: italic;
+        text-transform: none;
+        padding-left: 10px;
+    }
+    .beerList-item-3 .beerList-inner-text{
+        font-size: 15px;
+    }
+    .beerList-inner-text:first-child {
+        font-size: 21px;
+    }
+
+
+    .beerList-item-1 {
+        background-image: url("images/768/Assortiment/card90.png");
+        width: 351px;
+        height: 269px;
+        background-repeat: no-repeat;
+        margin-bottom: 30px;
+
+    }
+    .beerList-item-2 {
+        background-image: url("images/768/Assortiment/card100.png");
+        width: 351px;
+        height: 269px;
+        background-repeat: no-repeat;
+        margin-bottom: 30px;
+    }
+    .beerList-item-3 {
+        background-image: url("images/768/Assortiment/card110.png");
+        width: 351px;
+        height: 269px;
+        background-repeat: no-repeat;
+    }
+    .beerList-item-4 {
+        background-image: url("images/768/Assortiment/card120.png");
+        width: 351px;
+        height: 269px;
+        background-repeat: no-repeat;
+    }
+    .beer-price {
+        margin-bottom: 70px;
+    }
+    .bottleBeer {
+        height: 201px;
+        background-color: #ffffff;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .bottleBeer-imageVector {
+        background-image: url("images/768/Assortiment/beerVector.png");
+        width: 300px;
+        height: 201px;
+    }
+    .bottleBeer-text {
+        padding-top: 10px;
+    }
+    .bottleBeer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .bottleBeer ul>li p {
+        font-size: 35px;
+        font-family: "RF Krabuler", sans-serif;
+        font-weight: 400;
+        line-height: 10px;
+        /*text-transform: uppercase;*/
+        margin-left: 80px;
+    }
+    .bottleBeer ul>li span{
+        display: none;
+    }
+    .warning-price {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    .barrelBeer {
+        margin-bottom: 70px;
+    }
+    .listBeerCard {
+        display: flex;
+        width: 728px;
+        flex-flow: row wrap;
+    }
+    .listBeerCard-item {
+        width: 229px;
+        margin-right: 20px;
+        /*outline: 1px solid red;*/
+        margin-bottom: 30px;
+        box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    }
+    .listBeerCard-item  .image-product {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .listBeerCard-item:nth-child(4n) {
+        margin-right:20px;
+    }.listBeerCard-item:nth-child(3n) {
+         margin-right:0;
+     }
+    .barrelBeer .warning-price {
+        margin-top: -15px;
+    }
+    .ListBeerCard-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: 400;
+
+    }
+
+    .ListBeerCard-description span {
+        text-transform: none;
+        margin-left: 50px;
+    }
+    .listBeerCard-item{
+        display: flex;
+        flex-flow: column wrap;
+        /*outline: 1px solid black;*/
+
+    }
+    .container-price{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 192px;
+        /*outline: 1px solid black;*/
+        margin: auto;
+    }
+
+    .listBeerCard-item b {
+        font-weight: normal;
+    }
+    .product-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+    .product-description .made-product {
+        text-transform: none;
+    }
+    .item-price b {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 19px;
+        text-transform: uppercase;
+        font-weight: 400;
+        background-color: #CECECE;
+        flex-grow: 1;
+        text-align: center;
+        line-height: 68px;
+        margin-bottom: 20px;
+    }
+    .item-price .price-product {
+        text-transform: none;
+        width: 96px;
+        height: 68px;
+        background-color: #FFF176;
+        flex-grow: 0;
+        text-align: center;
+
+    }
+    .listBeerCard-item span {
+        text-transform: none;
+    }
+
+
+
+
+
+    .snack-banner {
+        width: 728px;
+        height: 288px;
+        background-image: url("images/768/Assortiment/snacksBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+    .snack-banner h2 {
+        font-size: 40px;
+        margin-left: 70px;
+        padding-top: 70px;
+        color: #FFF0A3;
+        text-shadow: none;
+        width: 200px;
+        font-weight: normal;
+    }
+
+
+
+
+
+
+
+    .snack-block-Card {
+        display: flex;
+        width: 728px;
+        flex-flow: row wrap;
+    }
+    .snack-block-card-item {
+        width: 229px;
+        margin-right: 20px;
+        /*outline: 1px solid red;*/
+        margin-bottom: 30px;
+        box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    }
+    .snack-block-card-item  .image-product {
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .image-product img:not(.barrelBeer .image-product img) {
+        min-width: 100%;
+    }
+    .snack-block-card-item:nth-child(4n) {
+        margin-right: 20px;
+    }
+    .snack-block-card-item:nth-child(3n) {
+        margin-right: 0;
+    }
+    .snack-block-card-item b {
+        font-weight: normal;
+    }
+    .container-price{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 192px;
+        /*outline: 1px solid black;*/
+        margin: auto;
+
+    }
+
+    .product-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 17px;
+        text-transform: uppercase;
+        margin-bottom: 35px;
+    }
+    .snack-block .product-description .kick-name {
+        display: none;
+    }
+
+    .product-description .made-product {
+        text-transform: none;
+    }
+
+    .item-price b {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: 400;
+        background-color: #CECECE;
+        flex-grow: 1;
+        text-align: center;
+        line-height: 68px;
+        margin-bottom: 20px;
+
+    }
+    .item-price .price-product {
+        text-transform: none;
+        width: 80px;
+        height: 68px;
+        background-color: #FFF176;
+        flex-grow: 0;
+        text-align: center;
+
+    }
+    .snack-block-card-item span {
+        text-transform: none;
+    }
+    .snack-block {
+        margin-bottom: 50px;
+    }
+
+
+    .cheepsBlock{
+        height: 202px;
+        background-color: #FCF9BB;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        display: flex;
+    }
+    .cheepsBlock-imageVector {
+        background-image: url("images/768/Assortiment/cheeps.png");
+        width: 301px;
+        height: 202px;
+
+    }
+    .cheepsBlock-text {
+        /*padding-top: 30px;*/
+    }
+    .cheepsBlock ul {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        list-style: none;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .cheepsBlock ul>li p {
+        font-size: 23px;
+        font-family: "RF Krabuler", sans-serif;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin: 0 0 10px 70px;
+    }
+    .cheepsBlock ul>li:last-child p {
+        margin-bottom: 0;
+    }
+
+
+
+
+
+    .cracksBlock{
+        height: 202px;
+        background-color: #FCF9BB;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        display: flex;
+    }
+    .cracksBlock-imageVector {
+        background-image: url("images/768/Assortiment/cracks.png");
+        width: 301px;
+        height: 202px;
+        margin-left: auto;
+    }
+    .cracksBlock ul {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        list-style: none;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .cracksBlock ul>li p {
+        font-size: 23px;
+        font-family: "RF Krabuler", sans-serif;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin: 0 0 10px 60px;
+
+    }
+    .cracksBlock ul>li:last-child p {
+        margin-bottom: 0;
+    }
+    .cracksBlock-text span {
+        text-transform: none;
+    }
+    .warning-price-margin {
+        text-align: right;
+        margin-bottom: 50px;
+    }
+    .warning-price-margin-last {
+        margin-bottom: 70px;
+    }
+
+
+
+
+
+
+    /*Карточки море продуктов и банер*/
+    .moreproduct-banner {
+        width: 729px;
+        height: 288px;
+        background-image: url("images/768/Assortiment/moreproductBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+
+        margin-bottom: 70px;
+        border-radius: 5px;
+    }
+    .moreproduct-banner h2 {
+        font-size: 42px;
+        margin-left: 440px;
+        padding-top: 100px;
+        color: #ffffff;
+        text-shadow: 0 0 25px rgba(0,0,0,0.7);
+        width: 500px;
+        font-weight: normal;
+    }
+
+
+    .moreproduct-block-Card {
+        display: flex;
+        width: 728px;
+        flex-flow: row wrap;
+    }
+    .moreproduct-block-card-item {
+        width: 229px;
+        margin-right: 20px;
+        /*outline: 1px solid red;*/
+        margin-bottom: 30px;
+        box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    }
+    .moreproduct-block-card-item  .image-product {
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 30px;
+        height: 151px;
+    }
+    .moreproduct-block-card-item:nth-child(4n) {
+        margin-right: 20px;
+    }
+    .moreproduct-block-card-item:nth-child(3n) {
+        margin-right: 0;
+    }
+    .moreproduct-block-card-item b {
+        font-weight: normal;
+    }
+    .container-price{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 192px;
+        /*outline: 1px solid black;*/
+        margin: auto;
+    }
+
+    .product-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 17px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    .product-description .made-product {
+        text-transform: none;
+    }
+    .item-price b {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: 400;
+        background-color: #CECECE;
+        flex-grow: 1;
+        text-align: center;
+        line-height: 68px;
+        margin-bottom: 20px;
+
+    }
+    .item-price .price-product {
+        text-transform: none;
+        width: 80px;
+        height: 68px;
+        background-color: #FFF176;
+        flex-grow: 0;
+        text-align: center;
+
+    }
+    .moreproduct-block-card-item span {
+        text-transform: none;
+    }
+    .moreproduct-block{
+        margin-bottom: 50px;
+    }
+
+
+    .banya-banner {
+        width: 728px;
+        height: 288px;
+        background-image: url("images/768/Assortiment/banyaBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+    .banya-banner h2 {
+        font-size: 43px;
+        margin-left: 440px;
+        padding-top: 70px;
+        color: #ffffff;
+        text-shadow: 0 0 25px rgba(0,0,0, 0.2);
+        width: 350px;
+        font-weight: normal;
+
+    }
+
+    .picnic-banner {
+        width: 728px;
+        height: 288px;
+        background-image: url("images/768/Assortiment/picknikBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 70px;
+        border-radius: 5px;
+    }
+    .picnic-banner h2 {
+        font-size: 43px;
+        margin-left: 55px;
+        padding-top: 45px;
+        color: #FFF0A3;
+        text-shadow: none;
+        width: 200px;
+        font-weight: normal;
+    }
+    .contacts h2 {
+        font-family: PF Beau Sans Pro Semibold, sans-serif;
+        text-transform: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /*Контакты*/
+    .contacts {
+        margin-bottom: 100px;
+    }
+    .contacts .contacts-map {
+
+        /*box-shadow: 0 0 20px 5px rgba(28, 28, 29, 0.2);*/
+        width: 478px;
+        height: 291px;
+        background-image: url("images/768/block-map.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        margin-left: -20px;
+    }
+    .contacts .contacts-map a {
+        display: block;
+        margin-left: 40px;
+        margin-top: 240px;
+
+        font: inherit;
+        font-size: 17px;
+        font-weight: bold;
+        color: #000000;
+    }
+    .contacts-address img {
+        display: none;
+    }
+    .contacts-address-img-adaptive {
+        background-image: url("images/768/logo-contacts.png");
+        width: 95px;
+        height: 109px;
+
+        margin-left: 80px;
+
+
+    }
+    .contacts .contacts-address {
+        margin-left: auto;
+        width: 240px;
+    }
+    .contacts .contacts-address .address-tittle{
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .contacts-address p {
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .contacts-address span {
+        color: #FA6648;
+    }
+
+
+
+
+
+
+    /*Подвал*/
+    footer {
+        background-color: #FDC55E;
+    }
+    footer .wrapper {
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .footer-nav {
+        display: flex;
+    }
+    .footer-nav li a {
+        display: block;
+        padding: 20px 15px;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        font-size: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .footer-nav li:first-child a {
+        padding-left: 0;
+    }
+    .footer-nav li a:active {
+        color: #1C1C1D;
+    }
+    .footer-social{
+        display: flex;
+        flex-flow: column wrap;
+        padding-top: 20px;
+
+        /*padding-top: 30px;*/
+    }
+    .footer-social b {
+        font-size: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .footer-social-icon-instagram-adaptive svg {
+        width: 25px;
+        height: 25px;
+    }
+    .footer-social-icon-telegram-adaptive svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer-social-icon-instagram-adaptive a:active  svg {
+        fill: #F9F9AA;
+    }
+    .footer-social-icon {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .footer-phone {
+        display: flex;
+        flex-flow: column wrap;
+        margin-top: 0;
+    }
+
+    .footer-phone b{
+        font-size: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 0 0 25px 0;
+
+
+    }
+    .footer-phone p {
+        position: relative;
+        margin: 0 0 10px 35px;
+        font-family: Montserrat, sans-serif;
+        color: #1C1C1D;
+        font-size: 12px;
+        font-weight: 800;
+        text-align: right;
+
+
+    }
+    .footer-phone p::before {
+        content: "";
+
+        position: absolute;
+        background-image: url("images/768/phone.png");
+
+        width: 26px;
+        height: 26px;
+        right: 120px;
+        top: -5px;
+
+    }
+
+    .warning-block img {
+        display: none;
+    }
+    .warning-block-img-adaptive {
+        background-image: url("images/768/icon-18years-warning-block.png");
+        width: 66px;
+        height: 66px;
+    }
+
+    .warning-block p {
+        font-family: "Arial Narrow", sans-serif;
+        font-size: 23px;
+        color: #ffffff;
+        width: 460px;
+        text-align: center;
+        margin: 20px 20px;
+    }
+    /*------form- pop-up--------------------*/
+
+    .modal-form {
+
+        width: 100%;
+        height: 100%;
+        background:rgba(146, 107, 99, 0.9);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        /*Нужно включить дисплей флекс*/
+        justify-content: center;
+        align-items: center;
+
+    }
+    @keyframes bounce {
+        0% {transform: translateY(-2000px);}
+        70% {transform: translateY(30px);}
+        90% {transform: translateY(-10px);}
+        100% {transform: translateY(0);}
+    }
+
+
+    .modal-form-show{
+        display: flex;
+        animation-name: bounce;
+        animation-duration: 0.6s;
+    }
+
+    .block-form-background{
+        color: #000000;
+        display: flex;
+        flex-wrap: wrap;
+
+        align-content: center;
+
+
+        background-color: transparent;
+        background-image: url("images/768/background-form-input.png");
+        background-repeat: no-repeat;
+        width: 401px;
+        height: 406px;
+        padding: 0 0 0 35px;
+
+        position: relative;
+
+    }
+    .block-description-form {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        margin-top: 0;
+        width: 363px;
+    }
+
+    .block-description-form a {
+        display: block;
+        background-image: url("images/768/bacgkround-button-registration.png");
+        width: 173px;
+        height: 49px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        color: #ffffff;
+        line-height: 45px;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .block-description-form p {
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 26px;
+        color: #000000;
+    }
+    .modal-form input[type="text"],
+    .modal-form input[type="password"]{
+        box-sizing: border-box;
+        width: 362px;
+        height: 56px;
+        border: none;
+        background-image: url("images/768/background-input-text.png");
+        margin-bottom: 10px;
+        padding: 0 0 0 20px;
+        background-color: transparent;
+    }
+    .modal-form input:focus {
+        background-image: url("images/768/background-text-focus.png");
+        width: 362px;
+        height: 56px;
+        outline: none;
+    }
+    .modal-form input::placeholder {
+        font-family: Montserrat, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        color: #8E8E8E;
+        text-transform: uppercase;
+
+    }
+    .modal-form input[type="password"]{
+        margin-bottom: 30px;
+    }
+    .modal-form p {
+        margin: 0;
+    }
+    .login-password-info {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+        text-transform: uppercase;
+        font-family: Montserrat, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .login-password-info a {
+        font-family: Tahoma, sans-serif;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+
+    }
+    .login-checkbox {
+        position: relative;
+        padding-left:40px;
+        cursor: pointer;
+        width: 180px;
+        font-family: Tahoma, sans-serif;
+        display: inline-block;
+        height: auto;
+        border: 0;
+        border-radius:0;
+
+        margin-left: 0;
+
+    }
+    .login-checkbox input[type="checkbox"] + .checkbox-indicator {
+        position: absolute;
+        top:-8px;
+        left: 0;
+
+        background-image: url("images/1000/checkbox.png");
+        width: 27px;
+        height: 30px;
+    }
+    .login-checkbox input[type="checkbox"]:focus + .checkbox-indicator {
+
+        outline: 1px solid yellow;
+    }
+    .login-checkbox input[type="checkbox"]:checked + .checkbox-indicator {
+        background-image: url("images/768/active-checkbox.png");
+    }
+
+    .modal-close {
+        position: absolute;
+        top: -45px;
+        right: 0;
+
+        width: 27px;
+        height: 27px;
+
+        font-size: 0;
+
+        background-color: transparent;
+        border: 0;
+
+        cursor: pointer;
+    }
+    .modal-close::before,
+    .modal-close::after {
+        content: "";
+
+        position: absolute;
+        top: 10px;
+        left: 2px;
+
+        width: 27px;
+        height: 5px;
+
+        background-color: #d0d0d0;
+    }
+    .modal-close::before {
+        transform: rotate(45deg);
+    }
+    .modal-close::after {
+        transform: rotate(-45deg);
+    }
+
+    form .button {
+        box-sizing: border-box;
+        border: none;
+        background-image: url("images/768/background-button-input.png");
+        background-color: transparent;
+        width: 363px;
+        height: 49px;
+        color: #ffffff;
+        font-size: 16px;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 30px;
+
+    }
+    form .button:focus {
+        outline: none;
+        border: none;
+        background-image: url("images/768/background-button-input-focus.png");
+        background-repeat: no-repeat;
+    }
+
+
+
+}
+
+/*--------------------------------------------------------------------------*/
+
+@media (max-width: 755px) {
+
+    html,
+    body {
+        padding:0;
+        margin:0;
+        /*overflow-x: hidden;*/
+
+        /*min-width: 460px;*/
+
+        font-family: Montserrat, sans-serif;
+    }
+
+    .mobile-adaptive-phone-320 {
+        display: none;
+    }
+    .container-center{
+        width: 440px;
+        margin:0 auto;
+        padding: 0 20px;
+    }
+    h2 {
+        font-family: PF Beau Sans Pro Semibold, sans-serif;
+        font-size: 35px;
+        margin-top: 0;
+        margin-bottom: 35px;
+    }
+
+    .mobile-adaptive-visible{
+        display: none;
+    }
+
+
+
+
+    /*Навигация */
+    nav .nav-logo {
+        display: none;
+    }
+    nav .logo-adaptive {
+        position: absolute;
+        top: 10px;
+        background-image: url("images/480/logo-nav.png");
+        width: 88px;
+        height: 95px;
+    }
+    .nav-button-contacts {
+        display: none;
+    }
+    .mobile-adaptive-nav-popup {
+        display: block;
+    }
+    .mobile-adaptive {
+        display: block;
+        margin-left: 140px;
+        padding-top: 17px;
+        font-family: Montserrat,sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        position: relative;
+    }
+    .mobile-adaptive::before {
+        content: "";
+
+        position: absolute;
+        left: -35px;
+        top: 12px;
+        background-image: url("images/480/phone-nav.png");
+        width: 25px;
+        height: 25px;
+
+
+    }
+    .main-navigation {
+        display: none;
+    }
+    nav .container-center {
+        position: relative;
+    }
+    .navigation-popup-wrapper {
+        display: flex;
+        position: absolute;
+        margin-right: 6px;
+        margin-top: 75px;
+    }
+    .user-navigation button {
+        width: 39px;
+        height: 40px;
+
+        border: none;
+
+        background-color: transparent;
+        background-image: url("images/480/user-button.png");
+        background-position: left top;
+        background-repeat: no-repeat;
+
+        color: #ffffff;
+
+        margin-left: 15px;
+        font-size: 0;
+
+    }
+    .user-navigation {
+        margin-top: 0;
+        padding: 12px 0;
+    }
+    .user-navigation a {
+        display: block;
+
+        text-align: center;
+
+        width: 39px;
+        height: 40px;
+
+        background-image: url("images/480/nav-button.png");
+        background-position: left top;
+        background-repeat: no-repeat;
+        font-size: 0;
+
+    }
+    .user-navigation .nav-button-input span,
+    .user-navigation .nav-button-contacts span{
+        position: absolute;
+        color: transparent;
+    }
+
+
+    .user-navigation a:active {
+        background-image: none;
+        color: #ffffff;
+    }
+    .user-navigation button:active {
+        background-image: none;
+        color: #000000;
+    }
+
+
+    nav {
+        margin-bottom: 60px;
+    }
+    h2 {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 27px;
+        font-weight: normal;
+        text-transform: uppercase;
+        width: 400px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    /*.image-product-1280{*/
+    /*    display: none;*/
+    /*}*/
+    /*.image-product-1000{*/
+    /*    display: block;*/
+    /*}*/
+
+    .mobile-adaptive-assortiment {
+        display: none;
+    }
+    .container-center-kick {
+        display: block;
+    }
+
+    .beer-banner {
+        width: 440px;
+        height: 260px;
+        background-image: url("images/480/Assortiment/mainAssortiment.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+    .beer-banner h2 {
+        font-size: 35px;
+        margin-left: 35px;
+        padding-top: 35px;
+    }
+    h3 {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 25px;
+        text-transform: none;
+        margin-bottom: 25px;
+        color: #595959;
+        margin-left: 30px;
+    }
+    .beerList{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .beerList-inner {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        line-height: 9px;
+    }
+
+    .beerList-inner:first-child:not(.beerList-item-3 .beerList-inner) {
+        margin-top: 40px;
+    }
+
+    .beerList .beerList-item-2 .beerList-inner:first-child{
+        margin-top: 30px;
+    }
+    .beerList .beerList-item-2 .beerList-inner-text p{
+        line-height: 5px;
+    }
+    .beerList .beerList-item-3 .beerList-inner:first-child{
+        margin-top: 5px;
+    }
+    .beerList .beerList-item-3 .beerList-inner-text p{
+        line-height:7px;
+        margin-top: 15px;
+
+    }
+    .beerList .beerList-item-4 .beerList-inner-text:first-child{
+        margin-top: 60px;
+    }
+
+    .beerList-inner-text:first-child {
+        color: #FF8E8E;
+        font-family: "RF Krabuler", sans-serif;
+        text-transform: none;
+        font-size: 22px;
+        padding-left: 25px;
+    }
+    .beerList-inner-text {
+        font-family: "Peace Sans", sans-serif;
+        color: #000000;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding-left: 15px;
+    }
+    .beerList-inner-text span {
+        font-size: 17px;
+        font-family: Roboto, sans-serif;
+        font-style: italic;
+        text-transform: none;
+        padding-left: 10px;
+    }
+    .beerList-item-3 .beerList-inner-text{
+        font-size: 15px;
+    }
+    .beerList-inner-text:first-child {
+        font-size: 21px;
+    }
+
+
+    .beerList-item-1 {
+        background-image: url("images/480/Assortiment/card90.png");
+        width: 440px;
+        height: 185px;
+        background-repeat: no-repeat;
+        margin-bottom: 30px;
+
+    }
+    .beerList-item-2 {
+        background-image: url("images/480/Assortiment/card100.png");
+        width: 440px;
+        height: 183px;
+        background-repeat: no-repeat;
+        margin-bottom: 30px;
+    }
+    .beerList-item-3 {
+        background-image: url("images/480/Assortiment/card110.png");
+        width: 440px;
+        height: 254px;
+        background-repeat: no-repeat;
+        margin-bottom: 30px;
+    }
+    .beerList-item-4 {
+        background-image: url("images/480/Assortiment/card120.png");
+        width: 442px;
+        height: 181px;
+        background-repeat: no-repeat;
+    }
+    .beer-price {
+        margin-bottom: 50px;
+    }
+    .bottleBeer {
+        height: 202px;
+        background-color: #ffffff;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .bottleBeer-imageVector {
+        background-image: url("images/480/Assortiment/beerVector.png");
+        width: 209px;
+        height: 202px;
+    }
+    .bottleBeer-text {
+        padding-top: 30px;
+    }
+    .bottleBeer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .bottleBeer ul>li p {
+        font-size: 25px;
+        font-family: "RF Krabuler", sans-serif;
+        font-weight: 400;
+        line-height: 10px;
+        /*text-transform: uppercase;*/
+        margin-left: 20px;
+    }
+    .bottleBeer ul>li span{
+        display: none;
+    }
+    .warning-price {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    .barrelBeer {
+        margin-bottom: 50px;
+    }
+    .listBeerCard {
+        display: flex;
+        width: 440px;
+        flex-flow: row wrap;
+    }
+    .listBeerCard-item {
+        width: 209px;
+        margin-right: 21px;
+        /*outline: 1px solid red;*/
+        margin-bottom: 30px;
+        box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    }
+    .listBeerCard-item .image-product img {
+        min-width: 100%;
+    }
+    .listBeerCard-item  .image-product {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        height: 140px;
+    }
+    .listBeerCard-item:nth-child(4n) {
+        margin-right:21px;
+    }.listBeerCard-item:nth-child(3n) {
+         margin-right:21px;
+     }
+    .listBeerCard-item:nth-child(2n) {
+         margin-right:0;
+     }
+    .barrelBeer .warning-price {
+        margin-top: -10px;
+    }
+    .ListBeerCard-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 400;
+
+    }
+
+    .ListBeerCard-description span {
+        text-transform: none;
+        margin-left: 50px;
+    }
+    .listBeerCard-item{
+        display: flex;
+        flex-flow: column wrap;
+        /*outline: 1px solid black;*/
+
+    }
+    .container-price{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 192px;
+        /*outline: 1px solid black;*/
+        margin: auto;
+    }
+
+    .listBeerCard-item b {
+        font-weight: normal;
+    }
+    .product-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+    .product-description .made-product {
+        text-transform: none;
+    }
+    .item-price b {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 400;
+        background-color: #CECECE;
+        flex-grow: 1;
+        text-align: center;
+        line-height: 55px;
+        margin-bottom: 20px;
+    }
+    .item-price .price-product {
+        text-transform: none;
+        width: 80px;
+        height: 55px;
+        background-color: #FFF176;
+        flex-grow: 0;
+        text-align: center;
+
+    }
+    .listBeerCard-item span {
+        text-transform: none;
+    }
+
+
+
+
+
+    .snack-banner {
+        width: 440px;
+        height: 287px;
+        background-image: url("images/480/Assortiment/snacksBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 35px;
+        border-radius: 5px;
+    }
+    .snack-banner h2 {
+        font-size: 25px;
+        margin-left: 50px;
+        padding-top: 105px;
+        color: #FFF0A3;
+        text-shadow: none;
+        width: 100px;
+        font-weight: normal;
+    }
+
+    .snack-block-Card {
+        display: flex;
+        width: 440px;
+        flex-flow: row wrap;
+    }
+    .snack-block-card-item {
+        width: 209px;
+        margin-right: 21px;
+        /*outline: 1px solid red;*/
+        margin-bottom: 30px;
+        box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    }
+    .snack-block-card-item  .image-product {
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 30px;
+        height: 140px;
+    }
+    .image-product img:not(.barrelBeer .image-product img) {
+        min-width: 100%;
+    }
+    .snack-block-card-item:nth-child(4n) {
+        margin-right: 21px;
+    }
+    .snack-block-card-item:nth-child(3n) {
+        margin-right: 21px;
+    }
+    .snack-block-card-item:nth-child(2n) {
+        margin-right: 0;
+    }
+    .snack-block-card-item b {
+        font-weight: normal;
+    }
+    .container-price{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 177px;
+        /*outline: 1px solid black;*/
+        margin: auto;
+
+    }
+
+    .product-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-bottom: 35px;
+    }
+    .snack-block .product-description .kick-name {
+        display: none;
+    }
+
+    .product-description .made-product {
+        text-transform: none;
+    }
+
+    .item-price b {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 400;
+        background-color: #CECECE;
+        flex-grow: 1;
+        text-align: center;
+        line-height: 55px;
+        margin-bottom: 20px;
+
+    }
+    .item-price .price-product {
+        text-transform: none;
+        width: 80px;
+        height: 55px;
+        background-color: #FFF176;
+        flex-grow: 0;
+        text-align: center;
+
+    }
+    .snack-block-card-item span {
+        text-transform: none;
+    }
+    .snack-block {
+        margin-bottom: 50px;
+    }
+
+
+    .cheepsBlock{
+        height: 201px;
+        background-color: #FCF9BB;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        display: flex;
+    }
+    .cheepsBlock-imageVector {
+        background-image: url("images/480/Assortiment/cheeps.png");
+        width: 209px;
+        height: 201px;
+
+    }
+    .cheepsBlock-text {
+        /*padding-top: 30px;*/
+    }
+    .cheepsBlock ul {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        list-style: none;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .cheepsBlock ul>li p {
+        font-size: 16px;
+        font-family: "RF Krabuler", sans-serif;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin: 0 0 10px 20px;
+    }
+    .cheepsBlock ul>li:last-child p {
+        margin-bottom: 0;
+    }
+
+
+
+
+
+    .cracksBlock{
+        height: 201px;
+        background-color: #FCF9BB;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        display: flex;
+    }
+    .cracksBlock-imageVector {
+        background-image: url("images/480/Assortiment/cracks.png");
+        width: 208px;
+        height: 201px;
+        margin-left: auto;
+    }
+    .cracksBlock ul {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        list-style: none;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .cracksBlock ul>li p {
+        font-size: 16px;
+        font-family: "RF Krabuler", sans-serif;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin: 0 0 10px 20px;
+
+    }
+    .cracksBlock ul>li:last-child p {
+        margin-bottom: 0;
+    }
+    .cracksBlock-text span {
+        text-transform: none;
+    }
+    .warning-price-margin {
+        text-align: right;
+        margin-bottom: 40px;
+    }
+    .warning-price-margin-last {
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+
+    /*Карточки море продуктов и банер*/
+    .moreproduct-banner {
+        width: 440px;
+        height: 287px;
+        background-image: url("images/480/Assortiment/moreproductBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+
+        margin-bottom: 35px;
+        border-radius: 5px;
+    }
+    .moreproduct-banner h2 {
+        font-size: 25px;
+        margin-left: 265px;
+        padding-top: 120px;
+        color: #ffffff;
+        text-shadow: 0 0 25px rgba(0,0,0,0.7);
+        width: 200px;
+        font-weight: normal;
+    }
+
+
+    .moreproduct-block-Card {
+        display: flex;
+        width: 440px;
+        flex-flow: row wrap;
+    }
+    .moreproduct-block-card-item {
+        width: 209px;
+        margin-right: 22px;
+        /*outline: 1px solid red;*/
+        margin-bottom: 30px;
+        box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    }
+    .moreproduct-block-card-item  .image-product {
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 30px;
+        height: 140px;
+    }
+    .moreproduct-block-card-item:nth-child(4n) {
+        margin-right: 22px;
+    }
+    .moreproduct-block-card-item:nth-child(3n) {
+        margin-right: 22px;
+    }
+    .moreproduct-block-card-item:nth-child(2n) {
+        margin-right: 0;
+    }
+    .moreproduct-block-card-item b {
+        font-weight: normal;
+    }
+    .container-price{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 177px;
+        /*outline: 1px solid black;*/
+        margin: auto;
+    }
+
+    .product-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    .product-description .made-product {
+        text-transform: none;
+    }
+    .item-price b {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 400;
+        background-color: #CECECE;
+        flex-grow: 1;
+        text-align: center;
+        line-height: 55px;
+        margin-bottom: 20px;
+
+    }
+    .item-price .price-product {
+        text-transform: none;
+        width: 80px;
+        height: 55px;
+        background-color: #FFF176;
+        flex-grow: 0;
+        text-align: center;
+
+    }
+    .moreproduct-block-card-item span {
+        text-transform: none;
+    }
+    .moreproduct-block{
+        margin-bottom: 50px;
+    }
+
+
+    .banya-banner {
+        width: 440px;
+        height: 286px;
+        background-image: url("images/480/Assortiment/banyaBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+    .banya-banner h2 {
+        font-size: 25px;
+        margin-left: 270px;
+        padding-top: 110px;
+        color: #ffffff;
+        text-shadow: 0 0 25px rgba(0,0,0, 0.2);
+        width: 150px;
+        font-weight: normal;
+
+    }
+
+    .picnic-banner {
+        width: 440px;
+        height: 287px;
+        background-image: url("images/480/Assortiment/picknikBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 70px;
+        border-radius: 5px;
+    }
+    .picnic-banner h2 {
+        font-size: 25px;
+        margin-left: 30px;
+        padding-top: 80px;
+        color: #FFF0A3;
+        text-shadow: none;
+        width: 130px;
+        font-weight: normal;
+    }
+    .contacts h2 {
+        font-family: PF Beau Sans Pro Semibold, sans-serif;
+        text-transform: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*Контакты*/
+    .contacts {
+        margin-bottom: 60px;
+    }
+    .contacts .wrapper {
+        flex-flow: column wrap;
+    }
+    .contacts-address {
+        display: flex;
+    }
+    .mobile-adaptive-contacts {
+        display: flex;
+        flex-flow: column wrap;
+        width:  260px;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+
+    }
+    .contacts .contacts-map {
+
+        /*box-shadow: 0 0 20px 5px rgba(28, 28, 29, 0.2);*/
+        width: 439px;
+        height: 261px;
+        background-image: url("images/480/block-map.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-bottom: 30px;
+    }
+    .contacts .contacts-map a {
+        display: block;
+        margin-left: 40px;
+        margin-top: 220px;
+
+        font: inherit;
+        font-size: 17px;
+        font-weight: bold;
+        color: #000000;
+    }
+    .contacts-address img {
+        display: none;
+    }
+    .contacts-address-img-adaptive {
+        background-image: url("images/480/logo-contacts.png");
+        width: 125px;
+        height: 143px;
+
+        margin-left: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
+
+    }
+    .contacts .contacts-address {
+        margin-left: 0;
+        width: 440px;
+    }
+    .contacts .contacts-address .address-tittle{
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .contacts-address p {
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 0 10px;
+    }
+    .contacts-address span {
+        color: #FA6648;
+    }
+
+
+
+
+
+
+    /*Подвал*/
+    footer {
+        background-color: #FDC55E;
+    }
+    footer .wrapper {
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .footer-nav {
+        display: flex;
+        flex-flow: column wrap;
+        margin-top: 15px;
+    }
+    .footer-nav li a {
+        display: block;
+        padding: 0 0 15px;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        font-size: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        text-decoration: none;
+
+    }
+    .footer-nav li:first-child a {
+        padding-left: 0;
+    }
+    .footer-nav li a:active {
+        color: #1C1C1D;
+    }
+    .footer-social{
+        display: flex;
+        flex-flow: column wrap;
+        padding-top: 20px;
+        margin-left: 30px;
+
+
+        /*padding-top: 30px;*/
+    }
+    .footer-social b {
+        font-size: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .footer-social-icon-instagram-adaptive svg {
+        width: 25px;
+        height: 25px;
+    }
+    .footer-social-icon-telegram-adaptive svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer-social-icon-instagram-adaptive a:active  svg {
+        fill: #F9F9AA;
+    }
+    .footer-social-icon {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .footer-phone {
+        display: flex;
+        flex-flow: column wrap;
+        margin-top: 0;
+    }
+
+    .footer-phone b{
+        font-size: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        width: 105px;
+        text-align: center;
+        margin-left: auto;
+        margin-bottom: 15px;
+        line-height: 12px;
+
+
+    }
+    .footer-phone p {
+        position: relative;
+        margin: 0 0 10px 35px;
+        font-family: Montserrat, sans-serif;
+        color: #1C1C1D;
+        font-size: 11px;
+        font-weight: 800;
+        text-align: right;
+
+
+
+    }
+    .footer-phone p::before {
+        content: "";
+
+        position: absolute;
+        background-image: url("images/768/phone.png");
+
+        width: 26px;
+        height: 26px;
+        right: 105px;
+        top: -6px;
+
+    }
+
+    .warning-block img {
+        display: none;
+    }
+    .warning-block-img-adaptive {
+        background-image: url("images/480/icon-18years-warning-block.png");
+        width: 66px;
+        height: 66px;
+    }
+
+    .warning-block p {
+        font-family: "Arial Narrow", sans-serif;
+        font-size: 18px;
+        color: #ffffff;
+        width: 380px;
+        text-align: center;
+        margin: 20px 5px;
+    }
+
+
+    .navigation-popup-wrapper {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 0;
+        margin-top: 69px;
+    }
+    .navigation-popup {
+        display: none;
+        position: relative;
+        width: 185px;
+        background-color: rgba(247,234,170, 0.95);
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    }
+    @keyframes bounce1 {
+        0% {transform: translateX(-2000px);}
+        70% {transform: translateX(30px);}
+        90% {transform: translateX(-10px);}
+        100% {transform: translateX(0);}
+    }
+    .navigation-popup-show {
+        display: block;
+        animation-name: bounce1;
+        animation-duration: 0.4s;
+    }
+    .main-navigation-popup {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .main-navigation-popup a {
+        display: block;
+        padding: 15px 20px;
+        font-family: Montserrat, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        color: #000000;
+        text-decoration: none;
+    }
+    .main-navigation-popup li:last-child {
+        margin-bottom: 20px;
+    }
+    /*.main-navigation-link-current  a {*/
+    /*    color: #ffffff;*/
+    /*}*/
+    .nav-popup-list {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 30px 20px 20px;
+    }
+    .nav-popup-list .new-main{
+        width: 72px;
+        height: 36px;
+        display: block;
+        font-family: Roboto, sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #000000;
+        font-weight: 800;
+        text-align: center;
+        line-height: 35px;
+        background-image: url("images/480/newBackgroundNavPopup.png");
+
+    }
+    .nav-popup-list .nav-popup-inst{
+        width: 40px;
+        height: 40px;
+        display: block;
+        background-image: url("images/480/instagram-nav.png");
+        margin-left: 10px;
+        margin-top: -2px;
+    }
+    .popup-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+        width: 22px;
+        height: 22px;
+
+        font-size: 0;
+
+        background-color: transparent;
+        border: 0;
+
+        cursor: pointer;
+    }
+    .popup-close::before,
+    .popup-close::after {
+        content: "";
+
+        position: absolute;
+        top: 10px;
+        left: 2px;
+
+        width: 19px;
+        height: 2px;
+
+        background-color: #000000;
+    }
+    .popup-close::before {
+        transform: rotate(45deg);
+    }
+    .popup-close::after {
+        transform: rotate(-45deg);
+    }
+    /*------form- pop-up--------------------*/
+
+    .modal-form {
+
+        width: 100%;
+        height: 100%;
+        background:rgba(146, 107, 99, 0.9);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        /*Нужно включить дисплей флекс*/
+        justify-content: center;
+        align-items: center;
+
+    }
+    @keyframes bounce {
+        0% {transform: translateY(-2000px);}
+        70% {transform: translateY(30px);}
+        90% {transform: translateY(-10px);}
+        100% {transform: translateY(0);}
+    }
+
+
+    .modal-form-show{
+        display: flex;
+        animation-name: bounce;
+        animation-duration: 0.6s;
+    }
+
+    .block-form-background{
+        color: #000000;
+        display: flex;
+        flex-wrap: wrap;
+
+        align-content: center;
+
+
+        background-color: transparent;
+        background-image: url("images/480/background-form-input.png");
+        background-repeat: no-repeat;
+        width: 346px;
+        height: 356px;
+        padding: 0 0 0 35px;
+
+        position: relative;
+
+    }
+    .block-description-form {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        margin-top: 0;
+        width: 317px;
+    }
+
+    .block-description-form a {
+        display: block;
+        background-image: url("images/480/bacgkround-button-registration.png");
+        width: 151px;
+        height: 43px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        color: #ffffff;
+        line-height: 40px;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .block-description-form p {
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        color: #000000;
+    }
+    .modal-form input[type="text"],
+    .modal-form input[type="password"]{
+        box-sizing: border-box;
+        width: 317px;
+        height: 50px;
+        border: none;
+        background-image: url("images/480/background-input-text.png");
+        margin-bottom: 10px;
+        padding-left: 20px;
+    }
+    .modal-form input:focus {
+        background-image: url("images/480/background-text-focus.png");
+        width: 317px;
+        height: 50px;
+        outline: none;
+    }
+    .modal-form input::placeholder {
+        font-family: Montserrat, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #8E8E8E;
+        text-transform: uppercase;
+
+    }
+    .modal-form input[type="password"]{
+        margin-bottom: 30px;
+    }
+    .modal-form p {
+        margin: 0;
+    }
+    .login-password-info {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+        text-transform: uppercase;
+        font-family: Montserrat, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .login-password-info a {
+        font-family: Tahoma, sans-serif;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+
+    }
+    .login-checkbox {
+        position: relative;
+        padding-left: 30px;
+        cursor: pointer;
+        width: 130px;
+        font-family: Tahoma, sans-serif;
+        display: inline-block;
+        height: auto;
+        border: 0;
+        border-radius:0;
+
+        margin-left: 0;
+
+    }
+    .login-checkbox input[type="checkbox"] + .checkbox-indicator {
+        position: absolute;
+        top:-8px;
+        left: 0;
+
+        background-image: url("images/480/checkbox.png");
+        width: 24px;
+        height: 26px;
+    }
+    .login-checkbox input[type="checkbox"]:focus + .checkbox-indicator {
+
+        outline: 1px solid yellow;
+    }
+    .login-checkbox input[type="checkbox"]:checked + .checkbox-indicator {
+        background-image: url("images/480/active-checkbox.png");
+    }
+
+    .modal-close {
+        position: absolute;
+        top: -40px;
+        right: 0;
+
+        width: 25px;
+        height: 25px;
+
+        font-size: 0;
+
+        background-color: transparent;
+        border: 0;
+
+        cursor: pointer;
+    }
+    .modal-close::before,
+    .modal-close::after {
+        content: "";
+
+        position: absolute;
+        top: 10px;
+        left: 2px;
+
+        width: 21px;
+        height: 4px;
+
+        background-color: #d0d0d0;
+    }
+    .modal-close::before {
+        transform: rotate(45deg);
+    }
+    .modal-close::after {
+        transform: rotate(-45deg);
+    }
+
+    form .button {
+        box-sizing: border-box;
+        border: none;
+        background-image: url("images/480/background-button-input.png");
+        background-color: transparent;
+        width: 317px;
+        height: 43px;
+        color: #ffffff;
+        font-size: 14px;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 30px;
+
+    }
+    form .button:focus {
+        outline: none;
+        border: none;
+        background-image: url("images/480/background-button-input-focus.png");
+        background-repeat: no-repeat;
+    }
+
+
+
+}
+
+/*------------------------------------------------------------*/
+
+
+
+@media (max-width: 470px) {
+
+    html,
+    body {
+        /*overflow-x: hidden;*/
+        padding:0;
+        margin:0;
+        /*min-width: 280px;*/
+
+        font-family: Montserrat, sans-serif;
+    }
+
+
+    .container-center{
+        width: 335px;
+        margin:0 auto;
+        padding: 0 20px;
+    }
+    h2 {
+        font-family: PF Beau Sans Pro Semibold, sans-serif;
+        font-size: 28px;
+        margin: 0 0 25px;
+        text-align: center;
+    }
+    .features h2 {
+        text-align: center;
+    }
+
+    .mobile-adaptive-visible {
+        display: block;
+    }
+    .mobile-adaptive-hidden {
+        display: none;
+    }
+
+
+
+
+    /*Навигация */
+
+    nav .nav-logo {
+        display: none;
+    }
+    nav .logo-adaptive {
+        display: none;
+    }
+    nav .container-center {
+        position: relative;
+    }
+    .nav-button-contacts {
+        display: none;
+    }
+    .mobile-adaptive-nav-popup {
+        display: block;
+    }
+    .mobile-adaptive {
+        display: block;
+        margin-left: 37px;
+        padding-top: 17px;
+        font-family: Montserrat,sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        position: relative;
+    }
+    .mobile-adaptive::before {
+        content: "";
+
+        position: absolute;
+        left: -35px;
+        top: 12px;
+        background-image: url("images/375/phone-nav.png");
+        width: 25px;
+        height: 25px;
+
+
+    }
+    .main-navigation {
+        display: none;
+    }
+    .user-navigation button {
+        width: 39px;
+        height: 40px;
+
+        border: none;
+
+        background-color: transparent;
+        background-image: url("images/375/user-button.png");
+        background-position: left top;
+        background-repeat: no-repeat;
+
+        color: #ffffff;
+
+        margin-left: 10px;
+
+    }
+    .user-navigation {
+        margin-top: 0;
+        padding: 12px 0;
+    }
+    .user-navigation a {
+        display: block;
+
+        text-align: center;
+
+        width: 39px;
+        height: 40px;
+
+        background-image: url("images/375/nav-button.png");
+        background-position: left top;
+        background-repeat: no-repeat;
+
+    }
+    .user-navigation .nav-button-input span,
+    .user-navigation .nav-button-contacts span{
+        position: absolute;
+        color: transparent;
+    }
+
+
+    .user-navigation a:active {
+        background-image: none;
+        color: #ffffff;
+    }
+    .user-navigation button:active {
+        background-image: none;
+        color: #000000;
+    }
+
+
+
+
+
+
+    nav {
+        margin-bottom: 0;
+    }
+    h2 {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 25px;
+        font-weight: normal;
+        text-transform: uppercase;
+        width: 400px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        text-align: left;
+    }
+    /*.image-product-1280{*/
+    /*    display: none;*/
+    /*}*/
+    /*.image-product-1000{*/
+    /*    display: block;*/
+    /*}*/
+
+    .mobile-adaptive-assortiment {
+        display: block;
+    }
+    .container-center-kick {
+        display: none;
+    }
+
+    .container-center-none {
+        width: 375px;
+        padding: 0;
+        margin: auto;
+    }
+    .beer-banner {
+
+        height: 260px;
+        width: 100%;
+        background-image: url("images/375/Assortiment/mainAssortiment.png");
+        background-position: 0 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.0);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 30px;
+        border-radius: 0;
+    }
+    .beer-banner h2 {
+        font-size: 40px;
+        margin-left: 35px;
+        padding-top: 25px;
+    }
+    h3 {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 25px;
+        text-transform: none;
+        margin-bottom: 25px;
+        color: #595959;
+        margin-left: 5px;
+    }
+    .beerList{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .beerList-inner {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        line-height: 9px;
+    }
+
+    .beerList-inner:first-child:not(.beerList-item-3 .beerList-inner) {
+        margin-top: 5px;
+    }
+
+    .beerList .beerList-item-2 .beerList-inner:first-child{
+        margin-top: 10px;
+    }
+    .beerList .beerList-item-2 .beerList-inner-text p{
+        line-height: 5px;
+    }
+    .beerList .beerList-item-3 .beerList-inner:first-child{
+        margin-top: 5px;
+    }
+    .beerList .beerList-item-3 .beerList-inner-text p{
+        line-height:7px;
+        margin-top: 16px;
+
+    }
+    .beerList .beerList-item-4 .beerList-inner-text:first-child{
+        margin-top: 40px;
+    }
+
+    .beerList-inner-text:first-child {
+        color: #FF8E8E;
+        font-family: "RF Krabuler", sans-serif;
+        text-transform: none;
+        font-size: 22px;
+        padding-left: 25px;
+    }
+    .beerList-inner-text {
+        font-family: "Peace Sans", sans-serif;
+        color: #000000;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding-left: 15px;
+    }
+    .beerList-inner-text span {
+        font-size: 14px;
+        font-family: Roboto, sans-serif;
+        font-style: italic;
+        text-transform: none;
+        padding-left: 10px;
+    }
+    .beerList-item-3 .beerList-inner-text{
+        font-size: 15px;
+    }
+    .beerList-inner-text:first-child {
+        font-size: 21px;
+    }
+
+
+    .beerList-item-1 {
+        background-image: url("images/375/Assortiment/card90.png");
+        width: 335px;
+        height: 155px;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+
+    }
+    .beerList-item-2 {
+        background-image: url("images/375/Assortiment/card100.png");
+        width: 335px;
+        height: 154px;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+    }
+    .beerList-item-3 {
+        background-image: url("images/375/Assortiment/card110.png");
+        width: 335px;
+        height: 253px;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+    }
+    .beerList-item-4 {
+        background-image: url("images/375/Assortiment/card120.png");
+        width: 335px;
+        height: 151px;
+        background-repeat: no-repeat;
+    }
+    .beer-price {
+        margin-bottom: 50px;
+    }
+    .bottleBeer {
+        height: 163px;
+        background-color: #ffffff;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .bottleBeer-imageVector {
+        background-image: url("images/375/Assortiment/beerVector.png");
+        width: 157px;
+        height: 163px;
+    }
+    .bottleBeer-text {
+        padding-top: 30px;
+    }
+    .bottleBeer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .bottleBeer ul>li p {
+        font-size: 18px;
+        font-family: "RF Krabuler", sans-serif;
+        font-weight: 400;
+        line-height: 10px;
+        /*text-transform: uppercase;*/
+        margin-left: 20px;
+    }
+    .bottleBeer ul>li span{
+        display: none;
+    }
+    .warning-price {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    .barrelBeer {
+        margin-bottom: 50px;
+    }
+    .listBeerCard {
+        display: flex;
+        width: 335px;
+        flex-flow: row wrap;
+    }
+    .listBeerCard-item {
+        width: 157px;
+        margin-right: 20px;
+        /*outline: 1px solid red;*/
+        margin-bottom: 20px;
+        box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    }
+    .listBeerCard-item .image-product img {
+        min-width: 100%;
+    }
+    .listBeerCard-item  .image-product {
+        margin-top: 5px;
+        text-align: center;
+        margin-bottom: 15px;
+        height: auto;
+    }
+    .listBeerCard-item:nth-child(4n) {
+        margin-right:20px;
+    }.listBeerCard-item:nth-child(3n) {
+         margin-right:20px;
+     }
+    .listBeerCard-item:nth-child(2n) {
+        margin-right:0;
+    }
+    .barrelBeer .warning-price {
+        margin-top: -15px;
+    }
+    .ListBeerCard-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 400;
+
+    }
+
+    .ListBeerCard-description span {
+        text-transform: none;
+        margin-left: 50px;
+
+    }
+    .listBeerCard-item{
+        display: flex;
+        flex-flow: column wrap;
+        /*outline: 1px solid black;*/
+
+    }
+    .container-price{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 135px;
+        /*outline: 1px solid black;*/
+        margin: auto;
+    }
+
+    .listBeerCard-item b {
+        font-weight: normal;
+    }
+    .product-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        height: 34px;
+        font-weight: 800;
+    }
+    .product-description .made-product {
+        display: block;
+        width: 70px;
+        text-transform: none;
+        font-size: 14px;
+        color: #757575;
+    }
+    .item-price b {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 400;
+        background-color: #CECECE;
+        flex-grow: 1;
+        text-align: center;
+        line-height: 45px;
+        margin-bottom: 15px;
+
+    }
+    .item-price .price-product {
+        text-transform: none;
+        width: 60px;
+        height: 45px;
+        background-color: #FFF176;
+        flex-grow: 0;
+        text-align: center;
+
+    }
+    .listBeerCard-item span {
+        text-transform: none;
+
+    }
+
+
+
+
+
+    .snack-banner {
+        width: 375px;
+        height: 287px;
+        background-image: url("images/375/Assortiment/snacksBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 35px;
+        border-radius: 5px;
+    }
+    .snack-banner h2 {
+        font-size: 25px;
+        margin-left: 30px;
+        padding-top: 105px;
+        color: #FFF0A3;
+        text-shadow: none;
+        width: 100px;
+        font-weight: normal;
+    }
+
+    .snack-block-Card {
+        display: flex;
+        width: 335px;
+        flex-flow: row wrap;
+    }
+    .snack-block-card-item {
+        width: 157px;
+        margin-right: 20px;
+        /*outline: 1px solid red;*/
+        margin-bottom: 20px;
+        box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    }
+    .snack-block-card-item  .image-product {
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 15px;
+        height: 106px;
+    }
+    .image-product img:not(.barrelBeer .image-product img) {
+        min-width: 100%;
+    }
+    .snack-block-card-item:nth-child(4n) {
+        margin-right: 20px;
+    }
+    .snack-block-card-item:nth-child(3n) {
+        margin-right: 20px;
+    }
+    .snack-block-card-item:nth-child(2n) {
+        margin-right: 0;
+    }
+    .snack-block-card-item b {
+        font-weight: normal;
+    }
+    .container-price{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 135px;
+        /*outline: 1px solid black;*/
+        margin: auto;
+    }
+
+    .product-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 17px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        height: 34px;
+        font-weight: 800;
+    }
+    .snack-block .product-description .kick-name {
+        display: none;
+    }
+
+    .product-description .made-product {
+        text-transform: none;
+    }
+
+    .item-price b {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 400;
+        background-color: #CECECE;
+        flex-grow: 1;
+        text-align: center;
+        line-height: 45px;
+        margin-bottom: 15px;
+
+    }
+    .item-price .price-product {
+        text-transform: none;
+        width: 60px;
+        height: 45px;
+        background-color: #FFF176;
+        flex-grow: 0;
+        text-align: center;
+
+    }
+    .snack-block-card-item span {
+        text-transform: none;
+    }
+    .snack-block {
+        margin-bottom: 50px;
+    }
+
+
+    .cheepsBlock{
+        height: 163px;
+        background-color: #FCF9BB;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        display: flex;
+    }
+    .cheepsBlock-imageVector {
+        background-image: url("images/375/Assortiment/cheeps.png");
+        width: 157px;
+        height: 163px;
+    }
+    .cheepsBlock-text {
+        /*padding-top: 30px;*/
+    }
+    .cheepsBlock ul {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        list-style: none;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .cheepsBlock ul>li p {
+        font-size: 12px;
+        font-family: "Arial Narrow", sans-serif;
+        font-weight: 600;
+        line-height: 20px;
+        text-transform: uppercase;
+        margin: 0 0 10px 10px;
+    }
+    .cheepsBlock ul>li:last-child p {
+        margin-bottom: 0;
+    }
+
+
+
+
+
+    .cracksBlock{
+        height: 163px;
+        background-color: #FCF9BB;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        display: flex;
+    }
+    .cracksBlock-imageVector {
+        background-image: url("images/375/Assortiment/cracks.png");
+        width: 156px;
+        height: 163px;
+        margin-left: auto;
+    }
+    .cracksBlock ul {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        list-style: none;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .cracksBlock ul>li p {
+        font-size: 12px;
+        font-family: "Arial Narrow", sans-serif;
+        font-weight: 800;
+        line-height: 20px;
+        text-transform: uppercase;
+        margin: 0 0 10px 10px;
+
+    }
+    .cracksBlock ul>li:last-child p {
+        margin-bottom: 0;
+    }
+    .cracksBlock-text span {
+        text-transform: none;
+    }
+    .warning-price-margin {
+        text-align: right;
+        margin-bottom: 40px;
+    }
+    .warning-price-margin-last {
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+
+    /*Карточки море продуктов и банер*/
+    .moreproduct-banner {
+
+        width: 375px;
+        height: 286px;
+        background-image: url("images/375/Assortiment/moreproductBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        color: #ffffff;
+
+
+        margin-bottom: 35px;
+        border-radius: 5px;
+
+    }
+    .moreproduct-banner h2 {
+        font-size: 22px;
+        margin-left: 225px;
+        padding-top: 120px;
+        color: #ffffff;
+        text-shadow: 0 0 25px rgba(0,0,0,0.7);
+        width: 130px;
+        font-weight: normal;
+    }
+
+
+    .moreproduct-block-Card {
+        display: flex;
+        width: 335px;
+        flex-flow: row wrap;
+    }
+    .moreproduct-block-card-item {
+        width: 157px;
+        margin-right: 20px;
+        /*outline: 1px solid red;*/
+        margin-bottom: 20px;
+        box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    }
+    .moreproduct-block-card-item  .image-product {
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 15px;
+        height: 106px;
+    }
+    .moreproduct-block-card-item:nth-child(4n) {
+        margin-right: 20px;
+    }
+    .moreproduct-block-card-item:nth-child(3n) {
+        margin-right: 20px;
+    }
+    .moreproduct-block-card-item:nth-child(2n) {
+        margin-right: 0;
+    }
+    .moreproduct-block-card-item b {
+        font-weight: normal;
+    }
+    .container-price{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 135px;
+        /*outline: 1px solid black;*/
+        margin: auto;
+    }
+
+    .product-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 17px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        height: 34px;
+        font-weight: 800;
+
+    }
+    .product-description .made-product {
+        text-transform: none;
+    }
+    .item-price b {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 400;
+        background-color: #CECECE;
+        flex-grow: 1;
+        text-align: center;
+        line-height: 45px;
+        margin-bottom: 15px;
+
+    }
+    .item-price .price-product {
+        text-transform: none;
+        width: 60px;
+        height: 45px;
+        background-color: #FFF176;
+        flex-grow: 0;
+        text-align: center;
+
+    }
+    .moreproduct-block-card-item span {
+        text-transform: none;
+    }
+    .moreproduct-block{
+        margin-bottom: 50px;
+    }
+
+
+    .banya-banner {
+
+        width: 375px;
+        height: 286px;
+        background-image: url("images/375/Assortiment/banyaBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+    .banya-banner h2 {
+        font-size: 25px;
+        margin-left: 225px;
+        padding-top: 110px;
+        color: #ffffff;
+        text-shadow: 0 0 25px rgba(0,0,0, 0.2);
+        width: 145px;
+        font-weight: normal;
+
+    }
+
+    .picnic-banner {
+
+        width: 375px;
+        height: 287px;
+        background-image: url("images/375/Assortiment/picknikBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 60px;
+        border-radius: 5px;
+    }
+    .picnic-banner h2 {
+        font-size: 25px;
+        margin-left: 15px;
+        padding-top: 80px;
+        color: #FFF0A3;
+        text-shadow: none;
+        width: 130px;
+        font-weight: normal;
+    }
+    .contacts h2 {
+        font-family: PF Beau Sans Pro Semibold, sans-serif;
+        text-transform: none;
+    }
+
+    .item-price .price-product-mobile {
+        width: 55px;
+    }
+
+
+
+
+
+    /*Контакты*/
+    .contacts {
+        margin-bottom: 40px;
+    }
+    .contacts .wrapper {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .contacts-address {
+        display: flex;
+        flex-flow: column-reverse wrap;
+        align-items: center;
+    }
+    .mobile-adaptive-contacts {
+        display: flex;
+        flex-flow: column wrap;
+        width:  260px;
+        margin-left: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+
+    }
+    .contacts .contacts-map {
+
+        /*box-shadow: 0 0 20px 5px rgba(28, 28, 29, 0.2);*/
+        width: 335px;
+        height: 313px;
+        background-image: url("images/375/block-map.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .contacts .contacts-map a {
+        display: block;
+        margin-left: 20px;
+        margin-top: 260px;
+
+        font: inherit;
+        font-size: 17px;
+        font-weight: bold;
+        color: #000000;
+    }
+    .contacts-address img {
+        display: none;
+    }
+    .contacts-address-img-adaptive {
+        background-image: url("images/375/logo-contacts.png");
+        width: 125px;
+        height: 143px;
+
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 40px;
+
+    }
+    .contacts .contacts-address {
+        margin-left: 0;
+        width: 280px;
+    }
+    .contacts .contacts-address .address-tittle{
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .contacts-address p {
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 0 10px;
+    }
+    .contacts-address span {
+        color: #FA6648;
+    }
+    .mobile-adaptive-phone-320 {
+        display: block;
+        order: -1;
+        font-size: 14px;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        position: relative;
+    }
+    .mobile-adaptive-phone-320::before {
+        content: "";
+        background-image: url("images/375/phone-contacts.png");
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+    }
+
+
+
+
+
+
+
+
+    /*Подвал*/
+    footer {
+        background-color: #FDC55E;
+    }
+    footer .wrapper {
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .footer-nav {
+        display: flex;
+        flex-flow: column wrap;
+        margin-top: 15px;
+    }
+    .footer-nav li a {
+        display: block;
+        padding: 0 0 15px;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        font-size: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        text-decoration: none;
+
+    }
+    .footer-nav li:first-child a {
+        padding-left: 0;
+    }
+    .footer-nav li a:active {
+        color: #1C1C1D;
+    }
+    .footer-social{
+        display: flex;
+        flex-flow: column wrap;
+        padding-top: 20px;
+        margin-left: 30px;
+
+
+        /*padding-top: 30px;*/
+    }
+    .footer-social b {
+        font-size: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .footer-social-icon-instagram-adaptive svg {
+        width: 25px;
+        height: 25px;
+    }
+    .footer-social-icon-telegram-adaptive svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer-social-icon-instagram-adaptive a:active  svg {
+        fill: #F9F9AA;
+    }
+    .footer-social-icon {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .footer-phone {
+        display: none;
+
+    }
+
+    .footer-phone b{
+        font-size: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        width: 105px;
+        text-align: center;
+        margin-left: auto;
+        margin-bottom: 15px;
+        line-height: 12px;
+
+
+    }
+    .footer-phone p {
+        position: relative;
+        margin: 0 0 10px 35px;
+        font-family: Montserrat, sans-serif;
+        color: #1C1C1D;
+        font-size: 11px;
+        font-weight: 800;
+        text-align: right;
+
+
+
+    }
+    .footer-phone p::before {
+        content: "";
+
+        position: absolute;
+        background-image: url("images/375/phone-contacts.png");
+
+        width: 26px;
+        height: 26px;
+        right: 105px;
+        top: -6px;
+
+    }
+
+    .warning-block img {
+        display: none;
+    }
+    .warning-block-img-adaptive {
+        background-image: url("images/375/icon-18years-warning-block.png");
+        width: 66px;
+        height: 66px;
+    }
+
+    .warning-block p {
+        font-family: "Arial Narrow", sans-serif;
+        font-size: 12px;
+        color: #ffffff;
+        width: 280px;
+        text-align: center;
+        margin: 20px 0;
+        letter-spacing: 0;
+    }
+
+
+
+
+
+
+
+    /*----------------nav-pop-up -------------------  */
+
+    .navigation-popup {
+        display: none;
+        position: relative;
+        width: 185px;
+        background-color: rgba(247,234,170, 0.95);
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    }
+    @keyframes bounce1 {
+        0% {transform: translateX(-2000px);}
+        70% {transform: translateX(30px);}
+        90% {transform: translateX(-10px);}
+        100% {transform: translateX(0);}
+    }
+    .navigation-popup-show {
+        display: block;
+        animation-name: bounce1;
+        animation-duration: 0.4s;
+    }
+    .main-navigation-popup {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .main-navigation-popup a {
+        display: block;
+        padding: 15px 20px;
+        font-family: Montserrat, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        color: #000000;
+        text-decoration: none;
+    }
+    .main-navigation-popup li:last-child {
+        margin-bottom: 20px;
+    }
+    /*.main-navigation-link-current  a {*/
+    /*    color: #ffffff;*/
+    /*}*/
+    .nav-popup-list {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 30px 20px 20px;
+    }
+    .nav-popup-list .new-main{
+        width: 72px;
+        height: 36px;
+        display: block;
+        font-family: Roboto, sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+        text-align: center;
+        line-height: 35px;
+        background-image: url("images/375/newBackgroundNavPopup.png");
+
+    }
+    .nav-popup-list .nav-popup-inst{
+        width: 40px;
+        height: 40px;
+        display: block;
+        background-image: url("images/375/instagram-nav.png");
+        margin-left: 10px;
+        margin-top: -2px;
+    }
+    .popup-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+        width: 22px;
+        height: 22px;
+
+        font-size: 0;
+
+        background-color: transparent;
+        border: 0;
+
+        cursor: pointer;
+    }
+    .popup-close::before,
+    .popup-close::after {
+        content: "";
+
+        position: absolute;
+        top: 10px;
+        left: 2px;
+
+        width: 19px;
+        height: 2px;
+
+        background-color: #000000;
+    }
+    .popup-close::before {
+        transform: rotate(45deg);
+    }
+    .popup-close::after {
+        transform: rotate(-45deg);
+    }
+
+
+    /*------form- pop-up--------------------*/
+
+    .modal-form {
+
+        width: 100%;
+        height: 100%;
+        background:rgba(146, 107, 99, 0.9);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        /*Нужно включить дисплей флекс*/
+        justify-content: center;
+        align-items: center;
+
+    }
+    @keyframes bounce {
+        0% {transform: translateY(-2000px);}
+        70% {transform: translateY(30px);}
+        90% {transform: translateY(-10px);}
+        100% {transform: translateY(0);}
+    }
+
+
+    .modal-form-show{
+        display: flex;
+        animation-name: bounce;
+        animation-duration: 0.6s;
+    }
+    .block-form-background{
+        color: #000000;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+
+        background-color: transparent;
+        background-image: url("images/375/background-form-input.png");
+        background-repeat: no-repeat;
+        width: 303px;
+        height: 312px;
+        padding-left: 30px;
+        position: relative;
+
+    }
+    .block-description-form {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        width: 274px;
+    }
+
+    .block-description-form a {
+        display: block;
+        background-image: url("images/375/bacgkround-button-registration.png");
+        width: 131px;
+        height: 36px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        color: #ffffff;
+        line-height: 31px;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .block-description-form p {
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        color: #000000;
+    }
+    .modal-form input[type="text"],
+    .modal-form input[type="password"]{
+        box-sizing: border-box;
+        width: 274px;
+        height: 45px;
+        border: none;
+        background-image: url("images/375/background-input-text.png");
+        margin-bottom: 10px;
+        padding-left: 10px;
+        background-repeat: no-repeat;
+    }
+    .modal-form input:focus {
+        background-image: url("images/375/background-text-focus.png");
+        width: 274px;
+        height: 45px;
+        outline: none;
+        background-repeat: no-repeat;
+    }
+    .modal-form input::placeholder {
+        font-family: Montserrat, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: #8E8E8E;
+        text-transform: uppercase;
+
+    }
+    .modal-form input[type="password"]{
+        margin-bottom: 20px;
+    }
+    .modal-form p {
+        margin: 0;
+    }
+    .login-password-info {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin: 15px 0;
+        text-transform: uppercase;
+        font-family: Montserrat, sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .login-password-info a {
+        font-family: Tahoma, sans-serif;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: bold;
+
+    }
+    .login-checkbox {
+        position: relative;
+        padding-left: 28px;
+        cursor: pointer;
+        width: 140px;
+        font-family: Tahoma, sans-serif;
+        margin-bottom: 20px;
+    }
+    .login-checkbox input[type="checkbox"] + .checkbox-indicator {
+        position: absolute;
+        top:-4px;
+        left: 0;
+
+        background-image: url("images/375/checkbox.png");
+        width: 21px;
+        height: 23px;
+    }
+    .login-checkbox input[type="checkbox"]:focus + .checkbox-indicator {
+
+        outline: 1px solid yellow;
+    }
+    .login-checkbox input[type="checkbox"]:checked + .checkbox-indicator {
+        background-image: url("images/375/active-checkbox.png");
+    }
+
+    .modal-close {
+        position: absolute;
+        top: -35px;
+        right: 0;
+
+        width: 22px;
+        height: 22px;
+
+        font-size: 0;
+
+        background-color: transparent;
+        border: 0;
+
+        cursor: pointer;
+    }
+    .modal-close::before,
+    .modal-close::after {
+        content: "";
+
+        position: absolute;
+        top: 10px;
+        left: 2px;
+
+        width: 19px;
+        height: 3px;
+
+        background-color: #d0d0d0;
+    }
+    .modal-close::before {
+        transform: rotate(45deg);
+    }
+    .modal-close::after {
+        transform: rotate(-45deg);
+    }
+
+    form .button {
+        box-sizing: border-box;
+        border: none;
+        background-image: url("images/375/background-button-input.png");
+        background-repeat: no-repeat;
+        width: 274px;
+        height: 36px;
+        color: #ffffff;
+        font-size: 12px;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 10px;
+
+    }
+    form .button:focus {
+        outline: none;
+        border: none;
+        background-image: url("images/375/background-button-input-focus.png");
+        background-repeat: no-repeat;
+    }
+
+    @keyframes shake {
+        0%, 100% {transform: translateX(0);}
+        10%, 30% , 50%, 70%, 90% {transform: translateX(-10px);}
+        20%, 40%, 60%, 80% {transform: translateX(0);}
+    }
+    .modal-error {
+        animation-name: shake;
+        animation-duration: 0.6s;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------для M-size mobile---------------------*/
+@media (max-width: 365px) {
+
+    html,
+    body {
+        padding:0;
+        margin:0;
+
+        /*min-width: 280px;*/
+
+        font-family: Montserrat, sans-serif;
+    }
+
+
+    .container-center{
+        width: 280px;
+        margin:0 auto;
+        padding: 0 20px;
+    }
+    h2 {
+        font-family: PF Beau Sans Pro Semibold, sans-serif;
+        font-size: 25px;
+        margin: 0 0 25px;
+        text-align: center;
+    }
+    .features h2 {
+        text-align: left;
+    }
+
+    .mobile-adaptive-visible {
+        display: block;
+    }
+    .mobile-adaptive-hidden {
+        display: none;
+    }
+
+
+
+
+    /*Навигация */
+
+    nav .nav-logo {
+        display: none;
+    }
+    nav .logo-adaptive {
+        display: none;
+    }
+    nav .container-center {
+        position: relative;
+    }
+    .nav-button-contacts {
+        display: none;
+    }
+    .mobile-adaptive-nav-popup {
+        display: block;
+    }
+    .mobile-adaptive {
+        display: block;
+        margin-left: 37px;
+        padding-top: 17px;
+        font-family: Montserrat,sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        position: relative;
+    }
+    .mobile-adaptive::before {
+        content: "";
+
+        position: absolute;
+        left: -35px;
+        top: 12px;
+        background-image: url("images/320/phone-nav.png");
+        width: 25px;
+        height: 25px;
+
+
+    }
+    .main-navigation {
+        display: none;
+    }
+    .user-navigation button {
+        width: 39px;
+        height: 40px;
+
+        border: none;
+
+        background-color: transparent;
+        background-image: url("images/320/user-button.png");
+        background-position: left top;
+        background-repeat: no-repeat;
+
+        color: #ffffff;
+
+        margin-left: 10px;
+
+    }
+    .user-navigation {
+        margin-top: 0;
+        padding: 12px 0;
+    }
+    .user-navigation a {
+        display: block;
+
+        text-align: center;
+
+        width: 39px;
+        height: 40px;
+
+        background-image: url("images/320/nav-button.png");
+        background-position: left top;
+        background-repeat: no-repeat;
+
+    }
+    .user-navigation .nav-button-input span,
+    .user-navigation .nav-button-contacts span{
+        position: absolute;
+        color: transparent;
+    }
+
+
+    .user-navigation a:active {
+        background-image: none;
+        color: #ffffff;
+    }
+    .user-navigation button:active {
+        background-image: none;
+        color: #000000;
+    }
+
+
+    nav {
+        margin-bottom: 0;
+    }
+    h2 {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 25px;
+        font-weight: normal;
+        text-transform: uppercase;
+        width: 400px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        text-align: left;
+    }
+    /*.image-product-1280{*/
+    /*    display: none;*/
+    /*}*/
+    /*.image-product-1000{*/
+    /*    display: block;*/
+    /*}*/
+
+    .mobile-adaptive-assortiment {
+        display: block;
+    }
+    .container-center-kick {
+        display: none;
+    }
+
+    .container-center-none {
+        width: 320px;
+        padding: 0;
+
+    }
+    .beer-banner {
+        height: 275px;
+        width: 100%;
+        background-image: url("images/320/Assortiment/mainAssortiment.png");
+        background-position: 0 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.0);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 30px;
+        border-radius: 0;
+    }
+    .beer-banner h2 {
+        font-size: 40px;
+        margin-left: 35px;
+        padding-top: 25px;
+    }
+    h3 {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 25px;
+        text-transform: none;
+        margin-bottom: 15px;
+        color: #595959;
+        margin-left: 5px;
+    }
+    .beerList{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .beerList-inner {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        line-height: 9px;
+    }
+
+    .beerList-inner:first-child:not(.beerList-item-3 .beerList-inner) {
+        margin-top: 5px;
+    }
+
+    .beerList .beerList-item-2 .beerList-inner:first-child{
+        margin-top: -5px;
+    }
+    .beerList .beerList-item-2 .beerList-inner-text p{
+        line-height: 5px;
+    }
+    .beerList .beerList-item-3 .beerList-inner:first-child{
+        margin-top: 5px;
+    }
+    .beerList .beerList-item-3 .beerList-inner-text p{
+        line-height:6px;
+        margin-top: 18px;
+
+    }
+    .beerList .beerList-item-4 .beerList-inner-text:first-child{
+        margin-top: 40px;
+    }
+
+    .beerList-inner-text:first-child {
+        color: #FF8E8E;
+        font-family: "RF Krabuler", sans-serif;
+        text-transform: none;
+        font-size: 19px;
+        padding-left: 20px;
+    }
+    .beerList-inner-text {
+        font-family: "Peace Sans", sans-serif;
+        color: #000000;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding-left: 15px;
+    }
+    .beerList-inner-text span {
+        font-size: 12px;
+        font-family: Roboto, sans-serif;
+        font-style: italic;
+        text-transform: none;
+        padding-left: 10px;
+    }
+    .beerList-item-3 .beerList-inner-text{
+        font-size: 12px;
+    }
+    .beerList-inner-text:first-child {
+        font-size: 19px;
+    }
+
+
+    .beerList-item-1 {
+        background-image: url("images/320/Assortiment/card90.png");
+        width: 280px;
+        height: 155px;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+
+    }
+    .beerList-item-2 {
+        background-image: url("images/320/Assortiment/card100.png");
+        width: 280px;
+        height: 154px;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+    }
+    .beerList-item-3 {
+        background-image: url("images/320/Assortiment/card110.png");
+        width: 280px;
+        height: 259px;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+    }
+    .beerList-item-4 {
+        background-image: url("images/320/Assortiment/card120.png");
+        width: 280px;
+        height: 151px;
+        background-repeat: no-repeat;
+    }
+    .beer-price {
+        margin-bottom: 50px;
+    }
+    .bottleBeer {
+        height: 143px;
+        background-color: #ffffff;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .bottleBeer-imageVector {
+        background-image: url("images/320/Assortiment/beerVector.png");
+        width: 129px;
+        height: 143px;
+    }
+    .bottleBeer-text {
+        padding-top: 20px;
+    }
+    .bottleBeer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .bottleBeer ul>li p {
+        font-size: 17px;
+        font-family: "RF Krabuler", sans-serif;
+        font-weight: 400;
+        line-height: 10px;
+        /*text-transform: uppercase;*/
+        margin-left: 10px;
+    }
+    .bottleBeer ul>li span{
+        display: none;
+    }
+    .warning-price {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 13px;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    .barrelBeer {
+        margin-bottom: 50px;
+    }
+    .listBeerCard {
+        display: flex;
+        width: 335px;
+        flex-flow: row wrap;
+    }
+    .listBeerCard-item {
+        width: 130px;
+        margin-right: 19px;
+        /*outline: 1px solid red;*/
+        margin-bottom: 20px;
+        box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    }
+    .listBeerCard-item .image-product img {
+        min-width: 100%;
+    }
+    .listBeerCard-item  .image-product {
+        margin-top: 5px;
+        text-align: center;
+        margin-bottom: 15px;
+        height: auto;
+    }
+    .listBeerCard-item:nth-child(4n) {
+        margin-right:19px;
+    }.listBeerCard-item:nth-child(3n) {
+         margin-right:19px;
+     }
+    .listBeerCard-item:nth-child(2n) {
+        margin-right:0;
+    }
+    .barrelBeer .warning-price {
+        margin-top: -10px;
+    }
+    .ListBeerCard-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 400;
+
+    }
+
+    .ListBeerCard-description span {
+        text-transform: none;
+        margin-left: 50px;
+
+    }
+    .listBeerCard-item{
+        display: flex;
+        flex-flow: column wrap;
+        /*outline: 1px solid black;*/
+
+    }
+    .container-price{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 135px;
+        /*outline: 1px solid black;*/
+        margin: auto;
+    }
+
+    .listBeerCard-item b {
+        font-weight: normal;
+    }
+    .product-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        height: 34px;
+        font-weight: 800;
+    }
+    .product-description .made-product {
+        display: block;
+        width: 70px;
+        text-transform: none;
+        font-size: 14px;
+        color: #757575;
+    }
+    .item-price b {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 400;
+        background-color: #CECECE;
+        flex-grow: 1;
+        text-align: center;
+        line-height: 45px;
+        margin-bottom: 15px;
+
+    }
+    .item-price .price-product {
+        text-transform: none;
+        width: 60px;
+        height: 45px;
+        background-color: #FFF176;
+        flex-grow: 0;
+        text-align: center;
+
+    }
+    .listBeerCard-item span {
+        text-transform: none;
+
+    }
+
+
+
+
+
+    .snack-banner {
+        width: 320px;
+        height: 287px;
+        background-image: url("images/320/Assortiment/snacksBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 35px;
+        border-radius: 5px;
+    }
+    .snack-banner h2 {
+        font-size: 25px;
+        margin-left: 18px;
+        padding-top: 105px;
+        color: #FFF0A3;
+        text-shadow: none;
+        width: 100px;
+        font-weight: normal;
+    }
+
+    .snack-block-Card {
+        display: flex;
+        width: 280px;
+        flex-flow: row wrap;
+        align-content: space-between;
+    }
+    .snack-block-card-item {
+        width: 130px;
+        margin-right: 19px;
+        /*outline: 1px solid red;*/
+        margin-bottom: 20px;
+        box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-end;
+    }
+    .snack-block-card-item  .image-product {
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 15px;
+        height: 87px;
+    }
+    .image-product img:not(.barrelBeer .image-product img) {
+        min-width: 100%;
+    }
+    .snack-block-card-item:nth-child(4n) {
+        margin-right: 19px;
+    }
+    .snack-block-card-item:nth-child(3n) {
+        margin-right: 19px;
+    }
+    .snack-block-card-item:nth-child(2n) {
+        margin-right: 0;
+    }
+    .snack-block-card-item b {
+        font-weight: normal;
+    }
+    .container-price{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 113px;
+        /*outline: 1px solid black;*/
+        margin-top: auto;
+        margin-bottom: 0;
+    }
+
+    .product-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        height: auto;
+        font-weight: 400;
+    }
+    .snack-block .product-description .kick-name {
+        display: none;
+    }
+
+    .product-description .made-product {
+        text-transform: none;
+    }
+
+    .item-price b {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 400;
+        background-color: #CECECE;
+        flex-grow: 1;
+        text-align: center;
+        line-height: 35px;
+        margin-bottom: 5px;
+
+    }
+    .item-price .price-product {
+        text-transform: none;
+        width: 60px;
+        height: 35px;
+        background-color: #FFF176;
+        flex-grow: 1;
+        text-align: center;
+        margin-bottom: 15px;
+
+    }
+    .snack-block-card-item span {
+        text-transform: none;
+    }
+    .snack-block {
+        margin-bottom: 40px;
+    }
+
+
+    .cheepsBlock{
+        height: 137px;
+        background-color: #FCF9BB;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        display: flex;
+    }
+    .cheepsBlock-imageVector {
+        background-image: url("images/320/Assortiment/cheeps.png");
+        width: 131px;
+        height: 137px;
+    }
+    .cheepsBlock-text {
+        /*padding-top: 30px;*/
+    }
+    .cheepsBlock ul {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        list-style: none;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .cheepsBlock ul>li p {
+        font-size: 11px;
+        width: 130px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        line-height: 16px;
+        text-transform: uppercase;
+        margin: 0 0 10px 10px;
+    }
+    .cheepsBlock ul>li:last-child p {
+        margin-bottom: 0;
+    }
+
+
+
+
+
+    .cracksBlock{
+        height: 136px;
+        background-color: #FCF9BB;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        display: flex;
+    }
+    .cracksBlock-imageVector {
+        background-image: url("images/320/Assortiment/cracks.png");
+        width: 132px;
+        height: 136px;
+        margin-left: auto;
+    }
+    .cracksBlock ul {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        list-style: none;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .cracksBlock ul>li p {
+        font-size: 11px;
+        width: 120px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 800;
+        line-height: 11px;
+        text-transform: uppercase;
+        margin: 0 0 10px 10px;
+
+
+    }
+    .cracksBlock ul>li:last-child p {
+        margin-bottom: 0;
+    }
+    .cracksBlock-text span {
+        text-transform: none;
+    }
+    .warning-price-margin {
+        text-align: right;
+        margin-bottom: 40px;
+    }
+    .warning-price-margin-last {
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+
+    /*Карточки море продуктов и банер*/
+    .moreproduct-banner {
+        width: 320px;
+        height: 287px;
+        background-image: url("images/320/Assortiment/moreproductBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        color: #ffffff;
+
+        margin-bottom: 35px;
+        border-radius: 5px;
+    }
+    .moreproduct-banner h2 {
+        font-size: 18px;
+        margin-left: 195px;
+        padding-top: 120px;
+        color: #ffffff;
+        text-shadow: 0 0 25px rgba(0,0,0,0.7);
+        width: 100px;
+        font-weight: normal;
+    }
+
+
+    .moreproduct-block-Card {
+        display: flex;
+        width: 280px;
+        flex-flow: row wrap;
+        align-content: space-between;
+
+    }
+    .moreproduct-block-card-item {
+        width: 130px;
+        margin-right: 19px;
+        /*outline: 1px solid red;*/
+        box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-end;
+
+    }
+    .moreproduct-block-card-item  .image-product {
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 15px;
+        height: 87px;
+    }
+    .moreproduct-block-card-item:nth-child(4n) {
+        margin-right: 19px;
+    }
+    .moreproduct-block-card-item:nth-child(3n) {
+        margin-right: 19px;
+    }
+    .moreproduct-block-card-item:nth-child(2n) {
+        margin-right: 0;
+    }
+    .moreproduct-block-card-item b {
+        font-weight: normal;
+    }
+    .container-price{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        /*align-items: flex-end;*/
+        width: 113px;
+        /*outline: 1px solid black;*/
+        margin-top: auto;
+        margin-bottom: 0;
+    }
+
+    .product-description {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        height: auto;
+        font-weight: 800;
+
+    }
+    .product-description .font-low {
+        font-size: 13px;
+        font-family: "RF Krabuler",sans-serif;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+    .product-description .made-product {
+        text-transform: none;
+    }
+    .item-price b {
+        font-family: "RF Krabuler", sans-serif;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 400;
+        background-color: #DDDDDD;
+        flex-grow: 1;
+        text-align: center;
+        line-height: 35px;
+        margin-bottom: 5px;
+
+    }
+    .item-price .price-product {
+        text-transform: none;
+        width: 60px;
+        height: 35px;
+        background-color: #FFF176;
+        flex-grow: 1;
+        text-align: center;
+        margin-bottom: 15px;
+
+
+    }
+    .moreproduct-block-card-item span {
+        text-transform: none;
+    }
+    .moreproduct-block{
+        margin-bottom: 40px;
+    }
+
+
+    .banya-banner {
+        width: 320px;
+        height: 287px;
+        background-image: url("images/320/Assortiment/banyaBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+    .banya-banner h2 {
+        font-size: 18px;
+        margin-left: 200px;
+        padding-top: 110px;
+        color: #ffffff;
+        text-shadow: 0 0 25px rgba(0,0,0, 0.2);
+        width: 100px;
+        font-weight: normal;
+
+    }
+
+    .picnic-banner {
+        width: 319px;
+        height: 287px;
+        background-image: url("images/320/Assortiment/picknikBlock.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        color: #ffffff;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+        margin-bottom: 60px;
+        border-radius: 5px;
+    }
+    .picnic-banner h2 {
+        font-size: 18px;
+        margin-left: 25px;
+        padding-top: 100px;
+        color: #FFF0A3;
+        text-shadow: none;
+        width: 80px;
+        font-weight: normal;
+    }
+    .contacts h2 {
+        font-family: PF Beau Sans Pro Semibold, sans-serif;
+        text-transform: none;
+    }
+
+    .item-price .price-product-mobile {
+        width: 55px;
+    }
+
+
+
+
+
+
+
+    /*Контакты*/
+    .contacts {
+        margin-bottom: 40px;
+    }
+    .contacts .wrapper {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .contacts-address {
+        display: flex;
+        flex-flow: column-reverse wrap;
+        align-items: center;
+    }
+    .mobile-adaptive-contacts {
+        display: flex;
+        flex-flow: column wrap;
+        width:  260px;
+        margin-left: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+
+    }
+    .contacts .contacts-map {
+
+        /*box-shadow: 0 0 20px 5px rgba(28, 28, 29, 0.2);*/
+        width: 280px;
+        height: 261px;
+        background-image: url("images/320/block-map.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .contacts .contacts-map a {
+        display: block;
+        margin-left: 20px;
+        margin-top: 220px;
+
+        font: inherit;
+        font-size: 17px;
+        font-weight: bold;
+        color: #000000;
+    }
+    .contacts-address img {
+        display: none;
+    }
+    .contacts-address-img-adaptive {
+        background-image: url("images/320/logo-contacts.png");
+        width: 125px;
+        height: 143px;
+
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 40px;
+
+    }
+    .contacts .contacts-address {
+        margin-left: 0;
+        width: 280px;
+    }
+    .contacts .contacts-address .address-tittle{
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .contacts-address p {
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 0 10px;
+    }
+    .contacts-address span {
+        color: #FA6648;
+    }
+    .mobile-adaptive-phone-320 {
+        display: block;
+        order: -1;
+        font-size: 14px;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        position: relative;
+    }
+    .mobile-adaptive-phone-320::before {
+        content: "";
+        background-image: url("images/320/phone-contacts.png");
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+    }
+
+
+
+
+    /*Подвал*/
+    footer {
+        background-color: #FDC55E;
+    }
+    footer .wrapper {
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .footer-nav {
+        display: flex;
+        flex-flow: column wrap;
+        margin-top: 15px;
+    }
+    .footer-nav li a {
+        display: block;
+        padding: 0 0 15px;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        font-size: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        text-decoration: none;
+
+    }
+    .footer-nav li:first-child a {
+        padding-left: 0;
+    }
+    .footer-nav li a:active {
+        color: #1C1C1D;
+    }
+    .footer-social{
+        display: flex;
+        flex-flow: column wrap;
+        padding-top: 20px;
+        margin-left: 30px;
+
+
+        /*padding-top: 30px;*/
+    }
+    .footer-social b {
+        font-size: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .footer-social-icon-instagram-adaptive svg {
+        width: 25px;
+        height: 25px;
+    }
+    .footer-social-icon-telegram-adaptive svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer-social-icon-instagram-adaptive a:active  svg {
+        fill: #F9F9AA;
+    }
+    .footer-social-icon {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .footer-phone {
+        display: none;
+
+    }
+
+    .footer-phone b{
+        font-size: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        width: 105px;
+        text-align: center;
+        margin-left: auto;
+        margin-bottom: 15px;
+        line-height: 12px;
+
+
+    }
+    .footer-phone p {
+        position: relative;
+        margin: 0 0 10px 35px;
+        font-family: Montserrat, sans-serif;
+        color: #1C1C1D;
+        font-size: 11px;
+        font-weight: 800;
+        text-align: right;
+
+
+
+    }
+    .footer-phone p::before {
+        content: "";
+
+        position: absolute;
+        background-image: url("images/320/phone-contacts.png");
+
+        width: 26px;
+        height: 26px;
+        right: 105px;
+        top: -6px;
+
+    }
+
+    .warning-block img {
+        display: none;
+    }
+    .warning-block-img-adaptive {
+        background-image: url("images/320/icon-18years-warning-block.png");
+        width: 66px;
+        height: 66px;
+    }
+
+    .warning-block p {
+        font-family: "Arial Narrow", sans-serif;
+        font-size: 11px;
+        color: #ffffff;
+        width: 215px;
+        text-align: center;
+        margin: 20px 0;
+        letter-spacing: 0;
+    }
+
+
+
+
+
+
+
+    /*----------------nav-pop-up -------------------  */
+
+    .navigation-popup {
+        display: none;
+        position: relative;
+        width: 185px;
+        background-color: rgba(247,234,170, 0.95);
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    }
+    @keyframes bounce1 {
+        0% {transform: translateX(-2000px);}
+        70% {transform: translateX(30px);}
+        90% {transform: translateX(-10px);}
+        100% {transform: translateX(0);}
+    }
+    .navigation-popup-show {
+        display: block;
+        animation-name: bounce1;
+        animation-duration: 0.4s;
+    }
+    .main-navigation-popup {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .main-navigation-popup a {
+        display: block;
+        padding: 15px 20px;
+        font-family: Montserrat, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .main-navigation-popup li:last-child {
+        margin-bottom: 20px;
+    }
+
+    /*.main-navigation-link-current  a {*/
+    /*    color: #ffffff;*/
+    /*}*/
+    .nav-popup-list {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 30px 20px 20px;
+    }
+    .nav-popup-list .new-main{
+        width: 72px;
+        height: 36px;
+        display: block;
+        font-family: Roboto, sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+        text-align: center;
+        line-height: 35px;
+        background-image: url("images/320/newBackgroundNavPopup.png");
+
+    }
+    .nav-popup-list .nav-popup-inst{
+        width: 40px;
+        height: 40px;
+        display: block;
+        background-image: url("images/320/instagram-nav.png");
+        margin-left: 10px;
+        margin-top: -2px;
+    }
+    .popup-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+        width: 22px;
+        height: 22px;
+
+        font-size: 0;
+
+        background-color: transparent;
+        border: 0;
+
+        cursor: pointer;
+    }
+    .popup-close::before,
+    .popup-close::after {
+        content: "";
+
+        position: absolute;
+        top: 10px;
+        left: 2px;
+
+        width: 19px;
+        height: 2px;
+
+        background-color: #000000;
+    }
+    .popup-close::before {
+        transform: rotate(45deg);
+    }
+    .popup-close::after {
+        transform: rotate(-45deg);
+    }
+
+
+    /*------form- pop-up--------------------*/
+
+    .modal-form {
+
+        width: 100%;
+        height: 100%;
+        background:rgba(146, 107, 99, 0.9);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        /*Нужно включить дисплей флекс*/
+        justify-content: center;
+        align-items: center;
+
+    }
+    @keyframes bounce {
+        0% {transform: translateY(-2000px);}
+        70% {transform: translateY(30px);}
+        90% {transform: translateY(-10px);}
+        100% {transform: translateY(0);}
+    }
+
+
+    .modal-form-show{
+        display: flex;
+        animation-name: bounce;
+        animation-duration: 0.6s;
+    }
+    .block-form-background{
+        color: #000000;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+
+        background-color: transparent;
+        background-image: url("images/320/background-form-input.png");
+        background-repeat: no-repeat;
+        width: 260px;
+        height: 262px;
+        padding-left: 20px;
+        position: relative;
+
+    }
+    .block-description-form {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        width: 233px;
+    }
+
+    .block-description-form a {
+        display: block;
+        background-image: url("images/320/bacgkround-button-registration.png");
+        width: 111px;
+        height: 31px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        color: #ffffff;
+        line-height: 30px;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .block-description-form p {
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        color: #000000;
+    }
+    .modal-form input[type="text"],
+    .modal-form input[type="password"]{
+        box-sizing: border-box;
+        width: 233px;
+        height: 37px;
+        border: none;
+        background-image: url("images/320/background-input-text.png");
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+    .modal-form input:focus {
+        background-image: url("images/320/background-text-focus.png");
+        width: 233px;
+        height: 37px;
+        outline: none;
+    }
+    .modal-form input::placeholder {
+        font-family: Montserrat, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: #8E8E8E;
+        text-transform: uppercase;
+
+    }
+    .modal-form input[type="password"]{
+        margin-bottom: 20px;
+    }
+    .modal-form p {
+        margin: 0;
+    }
+    .login-password-info {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin: 15px 0;
+        text-transform: uppercase;
+        font-family: Montserrat, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .login-password-info a {
+        font-family: Tahoma, sans-serif;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: bold;
+
+    }
+    .login-checkbox {
+        position: relative;
+        padding-left: 22px;
+        cursor: pointer;
+        width: 107px;
+        font-family: Tahoma, sans-serif;
+        margin-bottom: 20px;
+    }
+    .login-checkbox input[type="checkbox"] + .checkbox-indicator {
+        position: absolute;
+        top:-3px;
+        left: 0;
+
+        background-image: url("images/320/checkbox.png");
+        width: 17px;
+        height: 19px;
+    }
+    .login-checkbox input[type="checkbox"]:focus + .checkbox-indicator {
+
+        outline: 1px solid yellow;
+    }
+    .login-checkbox input[type="checkbox"]:checked + .checkbox-indicator {
+        background-image: url("images/320/active-checkbox.png");
+    }
+
+    .modal-close {
+        position: absolute;
+        top: -35px;
+        right: 0;
+
+        width: 22px;
+        height: 22px;
+
+        font-size: 0;
+
+        background-color: transparent;
+        border: 0;
+
+        cursor: pointer;
+    }
+    .modal-close::before,
+    .modal-close::after {
+        content: "";
+
+        position: absolute;
+        top: 10px;
+        left: 2px;
+
+        width: 19px;
+        height: 3px;
+
+        background-color: #d0d0d0;
+    }
+    .modal-close::before {
+        transform: rotate(45deg);
+    }
+    .modal-close::after {
+        transform: rotate(-45deg);
+    }
+
+    form .button {
+        box-sizing: border-box;
+        border: none;
+        background-image: url("images/320/background-button-input.png");
+        width: 233px;
+        height: 31px;
+        color: #ffffff;
+        font-size: 10px;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 10px;
+
+    }
+    form .button:focus {
+        outline: none;
+        border: none;
+        background-image: url("images/320/background-button-input-focus.png");
+        background-repeat: no-repeat;
+    }
+
+    @keyframes shake {
+        0%, 100% {transform: translateX(0);}
+        10%, 30% , 50%, 70%, 90% {transform: translateX(-10px);}
+        20%, 40%, 60%, 80% {transform: translateX(0);}
+    }
+    .modal-error {
+        animation-name: shake;
+        animation-duration: 0.6s;
+    }
+
+
+}
+

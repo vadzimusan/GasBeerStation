@@ -17,6 +17,14 @@
     font-style: normal;
 }
 @font-face {
+    font-family: 'Averta Demo';
+    src: url('fonts/averta-demo-pe-extrabold.eot');
+    src: local(''), url('fonts/averta-demo-pe-extrabold.woff') format('woff'), url('fonts/averta-demo-pe-extrabold.ttf') format('truetype'), url('fonts/averta-demo-pe-extrabold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Arial Narrow';
     src: url('fonts/arial_narrow.eot'); /* IE 9 Compatibility Mode */
     src: url('fonts/arial_narrow.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
@@ -25,6 +33,24 @@
     url('fonts/arial_narrow.ttf') format('truetype'), /* Safari, Android, iOS */
     url('fonts/arial_narrow.svg#arial_narrow') format('svg'); /* Chrome < 4, Legacy iOS */
 }
+@font-face {
+    font-family: 'Peace Sans';
+    src: local('Peace Sans'), local('PeaceSans'), url('fonts/Peacesans.woff2') format('woff2'), url('fonts/Peacesans.woff') format('woff'), url('fonts/Peacesans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RF Krabuler';
+    src: url('fonts/RFKrabuler-Regular.eot');
+    src: local('RFKrabuler-Regular'),
+    url('fonts/RFKrabuler-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/RFKrabuler-Regular.woff') format('woff'),
+    url('fonts/RFKrabuler-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 
 /* 1280 - main*/
@@ -45,6 +71,10 @@ body {
 ::-moz-selection {
     background: #f1556a;
     color: #fff;
+}
+a[href^="tel"]{
+    color: inherit;
+    text-decoration: none;
 }
 /*
 ---------------------------------------------
@@ -354,17 +384,21 @@ h2 {
     width: 215px;
     margin-left: 300px;
     margin-top: 60px;
-    letter-spacing: 1px;
 }
 
 .features-item h3 {
-    font-size: 24px;
+    font-size: 33px;
     text-transform: uppercase;
     margin-bottom: 30px;
+    font-family: "RF Krabuler", sans-serif;
+    font-weight: bold;
+    color: #FF8E8E;
 }
 .features-item p {
-    font-size: 24px;
+    font-size: 27px;
     margin: 0;
+    font-family: "Arial Narrow", sans-serif;
+    font-weight: bold;
 }
 .features-item-1{
     background-image: url("images/1280/feature-block1-1280.png");
@@ -1076,29 +1110,34 @@ form .button:focus {
     }
     .features-item {
         height: 188px;
-        width: 426px;
+        width: 428px;
     }
 
     .features-item-1 .features-item-text-container {
         width: 240px;
-        margin-left: 220px;
+        margin-left: 180px;
         margin-top: 40px;
     }
     .features-item-text-container {
         width: 180px;
-        margin-left: 220px;
+        margin-left: 200px;
         margin-top: 40px;
-        letter-spacing: 1px;
+        text-align: center;
     }
 
     .features-item h3 {
-        font-size: 18px;
+        font-size: 30px;
+        font-weight: bold;
         text-transform: uppercase;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        color: #FF8E8E;
+        font-family: "RF Krabuler", sans-serif;
     }
     .features-item p {
-        font-size: 18px;
+        font-size: 22px;
         margin: 0;
+        font-family: "Arial Narrow", sans-serif;
+        font-weight: bold;
     }
     .features-item-1{
         background-image: url("images/1000/featuresPrice.png");
@@ -1111,8 +1150,6 @@ form .button:focus {
         background-image: url("images/1000/featuresFresh.png");
         background-position: left top;
         background-repeat: no-repeat;
-        width: 426px;
-        height: 188px;
 
         margin-bottom: 30px;
     }
@@ -1125,6 +1162,7 @@ form .button:focus {
         background-image: url("images/1000/featuresAction.png");
         background-position:  top;
         background-repeat: no-repeat;
+
     }
 
 
@@ -1809,11 +1847,11 @@ form .button:focus {
     }
     .main-banner p {
         color: #F8F8F8;
-        font-family: Roboto, serif;
+        font-family: Roboto, sans-serif;
         text-transform: uppercase;
         font-size: 13px;
         line-height: 26px;
-        font-weight: 600;
+        font-weight: 500;
         letter-spacing: 1px;
         margin: 0 0 35px;
     }
@@ -1855,29 +1893,34 @@ form .button:focus {
     }
     .features-item {
         height: 144px;
-        width: 325px;
+        width: 327px;
     }
 
     .features-item-1 .features-item-text-container {
         width: 145px;
-        margin-left: 160px;
+        margin-left: 150px;
         margin-top: 30px;
     }
     .features-item-text-container {
         width: 125px;
-        margin-left: 160px;
+        margin-left: 150px;
         margin-top: 30px;
-        letter-spacing: 1px;
+        text-align: center;
+
     }
 
     .features-item h3 {
-        font-size: 14px;
+        font-size: 20px;
         text-transform: uppercase;
-        margin-bottom: 20px;
+        margin-bottom: 17px;
+        font-family: "RF Krabuler", sans-serif;
+        color: #FF8E8E;
     }
     .features-item p {
-        font-size: 14px;
+        font-size: 16px;
         margin: 0;
+        font-family: "Arial Narrow", sans-serif;
+        font-weight: bold;
     }
     .features-item-1{
         background-image: url("images/768/featuresPrice.png");
@@ -2628,7 +2671,7 @@ form .button:focus {
     }
     .main-banner p {
         color: #F8F8F8;
-        font-family: Roboto, serif;
+        font-family: Roboto, sans-serif;
         text-transform: uppercase;
         font-size: 12px;
         line-height: 20px;
@@ -2673,8 +2716,8 @@ form .button:focus {
         margin-bottom: 60px;
     }
     .features-item {
-        width: 210px;
-        height: 192px;
+        width: 211px;
+        height: 195px;
     }
 
     .features-item-1 .features-item-text-container {
@@ -2684,26 +2727,33 @@ form .button:focus {
     }
     .features-item-text-container {
         width: 125px;
-        margin-left: 35px;
+        margin-left: 42px;
         margin-top: 115px;
-        letter-spacing: 1px;
+
     }
 
     .features-item h3 {
-        font-size: 14px;
+        font-size: 20px;
         text-transform: uppercase;
-        margin-bottom: 10px;
+        margin-bottom: 7px;
         text-align: center;
+        font-family: "RF Krabuler",sans-serif;
+        color: #FF8E8E;
+        font-weight: bold;
     }
     .features-item p {
-        font-size: 14px;
+        font-size: 16px;
         margin: 0;
         text-align: center;
+        font-weight: bold;
+        font-family: "Arial Narrow", sans-serif;
     }
     .features-item-1{
         background-image: url("images/480/featuresPrice.png");
         background-position:  top;
         background-repeat: no-repeat;
+
+
 
         margin-bottom: 30px;
     }
@@ -2718,6 +2768,7 @@ form .button:focus {
         background-image: url("images/480/featuresAssortiment.png");
         background-position: top;
         background-repeat: no-repeat;
+
     }
     .features-item-4{
         background-image: url("images/480/featuresAction.png");
@@ -3135,14 +3186,15 @@ form .button:focus {
     }
     .main-navigation-popup a {
         display: block;
-        padding-bottom: 30px;
-        padding-left: 20px;
-        padding-right: 30px;
+        padding: 15px 20px;
         font-family: Montserrat, sans-serif;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: bold;
         color: #000000;
         text-decoration: none;
+    }
+    .main-navigation-popup li:last-child {
+        margin-bottom: 20px;
     }
     .nav-popup-list {
         display: flex;
@@ -3155,7 +3207,7 @@ form .button:focus {
         height: 36px;
         display: block;
         font-family: Roboto, sans-serif;
-        font-size: 12px;
+        font-size: 11px;
         text-transform: uppercase;
         text-decoration: none;
         color: #000000;
@@ -3594,7 +3646,7 @@ form .button:focus {
     }
     .main-banner p {
         color: #F8F8F8;
-        font-family: Roboto, serif;
+        font-family: Roboto, sans-serif;
         text-transform: uppercase;
         font-size: 12px;
         line-height: 18px;
@@ -3648,27 +3700,30 @@ form .button:focus {
     .features-item-1 .features-item-text-container {
         width: 133px;
         margin-left: 10px;
-        margin-top: 150px;
+        margin-top: 145px;
     }
     .features-item-text-container {
         width: 122px;
         margin-left: 15px;
-        margin-top: 150px;
-        letter-spacing: 1px;
+        margin-top: 145px;
+        /*letter-spacing: 1px;*/
     }
 
     .features-item h3 {
-        font-size: 14px;
+        font-size: 21px;
+        font-family: "RF Krabuler",sans-serif;
+        font-weight: bold;
+        color: #FF8E8E;
         text-transform: uppercase;
         margin-bottom: 10px;
         text-align: center;
-        letter-spacing: 0;
     }
     .features-item p {
-        font-size: 14px;
+        font-size: 16px;
         margin: 0;
         text-align: center;
-        font-family: Roboto,sans-serif;
+        font-family: "Arial Narrow",sans-serif;
+        font-weight: 600;
     }
     .features-item-1{
         background-image: url("images/375/features-price.png");
@@ -3732,7 +3787,7 @@ form .button:focus {
         min-height: 280px;
 
         margin-left: auto;
-        font-size: 14px;
+        font-size: 15px;
     }
     .slider-controls {
         display: none;
@@ -3745,7 +3800,7 @@ form .button:focus {
         font-family: Montserrat, sans-serif;
         font-size: 18px;
         font-weight: bold;
-        margin-bottom: 15px;
+        margin-bottom: 16px;
         margin-top: 0;
         text-align: center;
     }
@@ -4134,14 +4189,15 @@ form .button:focus {
     }
     .main-navigation-popup a {
         display: block;
-        padding-bottom: 30px;
-        padding-left: 20px;
-        padding-right: 30px;
+        padding: 15px 20px;
         font-family: Montserrat, sans-serif;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: bold;
         color: #000000;
         text-decoration: none;
+    }
+    .main-navigation-popup li:last-child {
+        margin-bottom: 20px;
     }
     .nav-popup-list {
         display: flex;
@@ -4154,7 +4210,7 @@ form .button:focus {
         height: 36px;
         display: block;
         font-family: Roboto, sans-serif;
-        font-size: 12px;
+        font-size: 11px;
         text-transform: uppercase;
         text-decoration: none;
         color: #000000;
@@ -4429,16 +4485,6 @@ form .button:focus {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*---------------------------для M-size mobile---------------------*/
 @media (max-width: 365px) {
 
@@ -4460,9 +4506,10 @@ form .button:focus {
     }
     h2 {
         font-family: PF Beau Sans Pro Semibold, sans-serif;
-        font-size: 25px;
+        font-size: 24px;
         margin: 0 0 25px;
         text-align: center;
+        letter-spacing: -1px;
     }
     .features h2 {
         text-align: left;
@@ -4587,6 +4634,7 @@ form .button:focus {
 
     .main-banner h1 {
         font-family: Philosopher, Arial, sans-serif;
+        text-shadow: 0 0 10px rgba(0,0,0,0.3);
         font-weight: bold;
         line-height: 40px;
         font-size: 35px;
@@ -4605,12 +4653,12 @@ form .button:focus {
         display: block;
     }
     .main-banner p {
-        color: #F8F8F8;
-        font-family: Roboto, serif;
+        color: #F3F3F3;
+        font-family: Roboto, sans-serif;
         text-transform: uppercase;
         font-size: 12px;
         line-height: 18px;
-        font-weight: 600;
+        font-weight: bold;
         letter-spacing: 1px;
         margin: 0 0 20px;
         width: 280px;
@@ -4651,24 +4699,28 @@ form .button:focus {
         margin-bottom: 60px;
     }
     .features-item {
-        width: 131px;
-        height: 208px;
+        width: 130px;
+        height: 207px;
     }
 
     .features-item-1 .features-item-text-container {
-        width: 133px;
-        margin-left: 0;
+        width: 100px;
+        margin-left: 15px;
         margin-top: 120px;
     }
     .features-item-text-container {
-        width: 122px;
+        width: 115px;
         margin-left: 5px;
         margin-top: 120px;
-        letter-spacing: 1px;
+        /*letter-spacing: 1px;*/
+    }
+    .features-item-4 .features-item-text-container {
+        width: 100px;
+        margin-left: 15px;
     }
 
     .features-item h3 {
-        font-size: 14px;
+        font-size: 16px;
         text-transform: uppercase;
         margin-bottom: 10px;
         text-align: center;
@@ -4678,7 +4730,7 @@ form .button:focus {
         font-size: 14px;
         margin: 0;
         text-align: center;
-        font-family: Roboto,sans-serif;
+        font-family: "Arial Narrow",sans-serif;
     }
     .features-item-1{
         background-image: url("images/320/features-price.png");
@@ -4742,7 +4794,7 @@ form .button:focus {
         min-height: 280px;
 
         margin-left: auto;
-        font-size: 14px;
+        font-size: 15px;
     }
     .slider-controls {
         display: none;
@@ -5144,14 +5196,15 @@ form .button:focus {
     }
     .main-navigation-popup a {
         display: block;
-        padding-bottom: 30px;
-        padding-left: 20px;
-        padding-right: 30px;
+        padding: 15px 20px;
         font-family: Montserrat, sans-serif;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: bold;
         color: #000000;
         text-decoration: none;
+    }
+    .main-navigation-popup li:last-child {
+        margin-bottom: 20px;
     }
     .nav-popup-list {
         display: flex;
@@ -5164,7 +5217,7 @@ form .button:focus {
         height: 36px;
         display: block;
         font-family: Roboto, sans-serif;
-        font-size: 12px;
+        font-size: 11px;
         text-transform: uppercase;
         text-decoration: none;
         color: #000000;

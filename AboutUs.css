@@ -1,0 +1,362 @@
+nav  {
+    margin-bottom: 100px;
+}
+h2 {
+    font-size: 66px;
+    font-family: "RF Krabuler", sans-serif;
+    color: #595959;
+}
+.main-navigation-link-current  a {
+    color: #ffffff;
+}
+.description-aboutUS {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.image-cup {
+    background-image: url("images/1280/AboutUs/beercup.png");
+    width: 454px;
+    height: 358px;
+}
+.description-aboutUS p {
+    width: 660px;
+    font-family: PF Beau Sans Pro Semibold, sans-serif;
+    font-size: 27px;
+    color: #542B29;
+}
+.description-aboutUS p:first-letter {
+    padding-left: 15px;
+}
+.epilogue-aboutUS {
+    display: flex;
+    margin-bottom: 100px;
+}
+.epilogue-aboutUS p {
+    width: 705px;
+    font-family: Averta Demo, Arial sans-serif;
+    font-size: 33px;
+    font-weight: 800;
+    font-style: italic;
+
+}
+.epilogue-aboutUS span {
+    display: block;
+    font-size: 60px;
+    padding-top: 50px;
+}
+.epilogue-aboutUS .image-logo {
+    background-image: url("images/1280/AboutUs/BeerLogo.png");
+    width: 319px;
+    height: 370px;
+    background-position: top;
+    margin-left: 130px;
+}
+
+@media (max-width: 1265px) {
+    nav  {
+        margin-bottom: 100px;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: "RF Krabuler", sans-serif;
+        color: #595959;
+    }
+    .main-navigation-link-current  a {
+        color: #ffffff;
+    }
+    .description-aboutUS {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+    .image-cup {
+        background-image: url("images/1000/AboutUs/beercup.png");
+        width: 341px;
+        height: 270px;
+    }
+    .description-aboutUS p {
+        width: 504px;
+        font-family: PF Beau Sans Pro Semibold, sans-serif;
+        font-size: 20px;
+        color: #542B29;
+    }
+    .epilogue-aboutUS {
+        display: flex;
+        margin-bottom: 100px;
+    }
+    .epilogue-aboutUS p {
+        width: 531px;
+        font-family: Averta Demo, Arial sans-serif;
+        font-size: 25px;
+        font-weight: 800;
+        font-style: italic;
+
+    }
+    .epilogue-aboutUS span {
+        display: block;
+        font-size: 45px;
+        padding-top: 50px;
+    }
+    .epilogue-aboutUS .image-logo {
+        background-image: url("images/1000/AboutUs/BeerLogo.png");
+        width: 240px;
+        height: 278px;
+        background-position: top;
+        margin-left: 115px;
+    }
+
+}
+@media (max-width: 990px) {
+    nav  {
+        margin-bottom: 80px;
+    }
+    h2 {
+        font-size: 38px;
+        font-family: "RF Krabuler", sans-serif;
+        color: #595959;
+    }
+    .main-navigation-link-current  a {
+        color: #ffffff;
+    }
+    .description-aboutUS {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+    .image-cup {
+        background-image: url("images/768/AboutUs/beercup.png");
+        width: 263px;
+        height: 207px;
+    }
+    .description-aboutUS p {
+        width: 387px;
+        font-family: PF Beau Sans Pro Semibold, sans-serif;
+        font-size: 17px;
+        color: #542B29;
+    }
+    .epilogue-aboutUS {
+        display: flex;
+        margin-bottom: 80px;
+    }
+    .epilogue-aboutUS p {
+        width: 407px;
+        font-family: Averta Demo, Arial sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+        font-style: italic;
+
+    }
+    .epilogue-aboutUS span {
+        display: block;
+        font-size: 35px;
+        padding-top: 50px;
+    }
+    .epilogue-aboutUS .image-logo {
+        background-image: url("images/768/AboutUs/BeerLogo.png");
+        margin-left: 100px;
+        width: 185px;
+        height: 214px;
+        background-position: top;
+    }
+}
+@media (max-width: 755px) {
+    nav  {
+        margin-bottom: 70px;
+    }
+    h2 {
+        font-size: 38px;
+        font-family: "RF Krabuler", sans-serif;
+        color: #595959;
+    }
+    .main-navigation-link-current  a {
+        color: #ffffff;
+    }
+    .description-aboutUS {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+        width: 435px;
+    }
+    .image-cup {
+        background-image: url("images/480/AboutUs/beercup.png");
+        width: 236px;
+        height: 230px;
+        margin-bottom: 20px;
+    }
+    .description-aboutUS p {
+        width: auto;
+        font-family: PF Beau Sans Pro Semibold, sans-serif;
+        font-size: 19px;
+        color: #542B29;
+    }
+    .description-aboutUS p:first-letter {
+        padding-left: 19px;
+    }
+    .epilogue-aboutUS {
+        display: flex;
+        align-items: center;
+        flex-flow: column-reverse wrap;
+        margin-bottom: 50px;
+        width: 435px;
+    }
+    .epilogue-aboutUS p {
+        width: auto;
+        font-family: Averta Demo, Arial sans-serif;
+        font-size: 21px;
+        font-weight: 800;
+        font-style: italic;
+
+    }
+    .epilogue-aboutUS span {
+        display: block;
+        font-size: 38px;
+        padding-top: 40px;
+    }
+    .epilogue-aboutUS .image-logo {
+        background-image: url("images/480/AboutUs/BeerLogo.png");
+        width: 198px;
+        height: 231px;
+        background-position: top;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+}
+@media (max-width: 470px) {
+    nav  {
+        margin-bottom: 60px;
+    }
+    h2 {
+        font-size: 38px;
+        font-family: "RF Krabuler", sans-serif;
+        color: #595959;
+        text-align: left;
+    }
+    .main-navigation-link-current  a {
+        color: #ffffff;
+    }
+    .description-aboutUS {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+        width: 335px;
+    }
+    .image-cup {
+        background-image: url("images/375/AboutUs/beercup.png");
+        width: 205px;
+        height: 202px;
+        margin-bottom: 20px;
+    }
+    .description-aboutUS p {
+        width: auto;
+        font-family: PF Beau Sans Pro Semibold, sans-serif;
+        font-size: 16px;
+        color: #542B29;
+    }
+    .description-aboutUS p:first-letter {
+        padding-left: 19px;
+    }
+    .epilogue-aboutUS {
+        display: flex;
+        align-items: center;
+        flex-flow: column-reverse wrap;
+        margin-bottom: 50px;
+        width: 335px;
+    }
+    .epilogue-aboutUS p {
+        width: auto;
+        font-family: Averta Demo, Arial sans-serif;
+        font-size: 17px;
+        font-weight: 800;
+        font-style: italic;
+
+    }
+    .epilogue-aboutUS span {
+        display: block;
+        font-size: 30px;
+        padding-top: 40px;
+    }
+    .epilogue-aboutUS .image-logo {
+        background-image: url("images/375/AboutUs/BeerLogo.png");
+        width: 185px;
+        height: 214px;
+        background-position: top;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+}
+@media (max-width: 365px) {
+    nav  {
+        margin-bottom: 40px;
+    }
+    h2 {
+        font-size: 30px;
+        font-family: "RF Krabuler", sans-serif;
+        color: #595959;
+        text-align: left;
+    }
+    .main-navigation-link-current  a {
+        color: #ffffff;
+    }
+    .description-aboutUS {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+        width: 280px;
+    }
+    .image-cup {
+        background-image: url("images/320/AboutUs/beercup.png");
+        width: 172px;
+        height: 168px;
+        margin-bottom: 20px;
+    }
+    .description-aboutUS p {
+        width: auto;
+        font-family: PF Beau Sans Pro Semibold, sans-serif;
+        font-size: 15px;
+        color: #542B29;
+    }
+    .description-aboutUS p:first-letter {
+        padding-left: 19px;
+    }
+    .epilogue-aboutUS {
+        display: flex;
+        align-items: center;
+        flex-flow: column-reverse wrap;
+        margin-bottom: 40px;
+        width: 280px;
+    }
+    .epilogue-aboutUS p {
+        width: auto;
+        font-family: Averta Demo, Arial sans-serif;
+        font-size: 15px;
+        font-weight: 800;
+        font-style: italic;
+
+    }
+    .epilogue-aboutUS span {
+        display: block;
+        font-size: 25px;
+        padding-top: 30px;
+    }
+    .epilogue-aboutUS .image-logo {
+        background-image: url("images/320/AboutUs/BeerLogo.png");
+        width: 154px;
+        height: 178px;
+        background-position: top;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+
+}
